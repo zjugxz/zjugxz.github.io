@@ -5,7 +5,6 @@ description: Design and Implementation of a Low-power Demodulator for LoRa Backs
 img: assets/img/saiyan_figure (1).png
 importance: 2
 category: work
-giscus_comments: true
 ---
 
 <div class="row">

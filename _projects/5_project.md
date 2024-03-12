@@ -5,7 +5,6 @@ description: Harnessing Channel State Information for Cross-Technology Communica
 img: assets/img/zigfi_figure.jpg
 importance: 5
 category: work
-giscus_comments: true
 ---
 
 <div class="row">

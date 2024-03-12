@@ -5,7 +5,6 @@ description: Physical-level CTC via Digital Emulation.
 img: assets/img/wide_figure.jpg
 importance: 6
 category: work
-giscus_comments: true
 ---
 
 <div class="row">

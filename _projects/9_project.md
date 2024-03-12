@@ -5,7 +5,6 @@ description: Harnessing Channel State Information for Cross-Technology Communica
 img: assets/img/stripcomm_figure.jpg
 importance: 9
 category: work
-giscus_comments: true
 ---
 
 <div class="row">

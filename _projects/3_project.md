@@ -3,9 +3,8 @@ layout: page
 title: Aloba
 description: Rethinking ON-OFF Keying Modulation for Ambient LoRa Backscatter
 img: assets/img/aloba_figure.jpg
-importance: 2
+importance: 3
 category: work
-giscus_comments: true
 ---
 
 <div class="row">

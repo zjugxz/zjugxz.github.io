@@ -5,7 +5,6 @@ description: A Unified Backscatter Radio Hardware Abstraction
 img: assets/img/transformer_figure.png
 importance: 1
 category: work
-related_publications: true
 ---
 
 <div class="row">
