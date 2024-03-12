@@ -1,6 +1,5 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"SenSys 2021", "SenSys 2020":
   color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
+  
+"EWSN 2019":
+  color: "#00FF00"
