@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper “MAF ”on earable sensing was accepted by <strong>ACM CHI 2024 !</strong>
+Our paper "MAF" on earable sensing was accepted by <strong>ACM CHI 2024 !</strong>

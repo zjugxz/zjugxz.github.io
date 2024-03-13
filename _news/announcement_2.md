@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper “EarVoice ”on earable sensing was accepted by <strong>ACM MobiSys 2024 !</strong>
+Our paper "EarVoice" on earable sensing was accepted by <strong>ACM MobiSys 2024 !</strong>

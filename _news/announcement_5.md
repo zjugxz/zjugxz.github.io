@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Our paper “MagWear”on magnetic sensing was accepted by <strong>ACM MobiCom 2024 !</strong>
+Our paper "MagWear" on magnetic sensing was accepted by <strong>ACM MobiCom 2024 !</strong>
 

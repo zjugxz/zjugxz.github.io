@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our survey paper “TRIDENT”on backscatter communication was accepted by <strong>IEEE INFOCOM 2024 !</strong>
+Our survey paper "TRIDENT" on backscatter communication was accepted by <strong>IEEE INFOCOM 2024 !</strong>
