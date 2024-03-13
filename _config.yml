@@ -3,8 +3,8 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: 
-middle_name: Xiuzhen
+first_name: Xiuzhen
+middle_name: 
 last_name: Guo
 email: guoxiuzhen94@gmail.com # you@example.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -283,8 +283,8 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Xiuzhen]
+  first_name: [Guo]
 
   style: apa
   locale: en
