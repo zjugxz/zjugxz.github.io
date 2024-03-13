@@ -8,10 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p><strong>Email:</strong> guoxiuzhen94@gmail.com</p>
-    <p><strong>Email:</strong> guoxz@zju.edu.cn</p>
-    <p><strong>Address:</strong> Address 423, IIPC Building, Yuquan Campus</p>
+  more_info: false
 
 latest_posts: false # includes a list of blog items
 news: true # includes a list of news items
