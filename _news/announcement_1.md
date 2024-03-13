@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-08-01 07:59:00-0400
+date: 2024-03-13 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-我们关于毫米波感知的综述被IEEE communication survey & tutorial接收！
+Our paper “MAF ”on earable sensing was accepted by <strong>ACM CHI 2024 !</strong>
