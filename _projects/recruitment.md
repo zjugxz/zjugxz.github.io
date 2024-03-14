@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Recruitment
-description: blank
+description: Notes for Prospective Students
 img: blank
 importance: 1
 category: recruitment
@@ -48,18 +48,10 @@ category: recruitment
                 </span>
               </td>
             </tr>
-            <tr>
-              <td colspan="4" align="center" valign="top">
-              <p>
-                <span style="font-family: Arial; font-size:large;">
-                  <font size="2">LAST UPDATED: Mar, 2024 | COPYRIGHT © Xiuzhen Guo</font>
-                </span>
-              </p>
-            </td>
           </tr>
           </tbody>
         </table>
-      </div> <!-- close main -->
+      </div>
     </div>
 
 
