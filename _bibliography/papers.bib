@@ -17,13 +17,17 @@
 }
 
 @inproceedings{ACMMobiCom2024,
-    abbr      =   {MobiCom 2024},
+    abbr      =   {MobiCom'24},
     title     =   {Exploring the Feasibility of Remote Cardiac Auscultation Using Earphones.},
     author    =   {Chen, Tao and Yang, Yongjie and Fan, Xiaoran and Guo, Xiuzhen and Xiong, Jie and Shangguan, Longfei},
+    abstract = {The elderly over 65 accounts for 80% of COVID deaths in the United States. In response to the pandemic, the federal, state governments, and commercial insurers are promoting video visits, through which the elderly can access specialists at home over the Internet, without the risk of COVID exposure. However, the current video visit practice barely relies on video observation and talking. The specialist could not assess the patient’s health conditions by performing auscultations.
+
+This paper tries to address this key missing component in video visits by proposing Asclepius, a hardware-software solution that turns the patient’s earphones into a stethoscope, allowing the specialist to hear the patient’s fine-grained heart sound (i.e., PCG signals) in video visits. To achieve this goal, we contribute a low-cost plug-in peripheral that repurposes the earphone’s speaker into a microphone and uses it to capture the patient’s minute PCG signals from her ear canal. As the PCG signals suffer from strong attenuation and multi-path effects when propagating from the heart to ear canals, we then propose efficient signal processing algorithms coupled with a data-driven approach to de-reverberate and further correct the amplitude and frequency distortion in raw PCG receptions. We implement Asclepius on a 2-layer PCB board and follow the IRB protocol to evaluate its performance with 30 volunteers. Our extensive experiments show that Asclepius can effectively recover Phonocardiogram (PCG) signals with different types of earphones. The objective blind testing and subjective interview with five cardiologists further confirm the clinical efficacy and efficiency of our system. PCG signal samples, benchmark results, and cardiologist interviews can be found at: https://asclepius-system.github.io/},
     booktitle =   {ACM International Conference on Mobile Computing and Networking (MobiCom)},
     year      =   {2024},
     pdf       =   {https://github.com/zjugxz/zjugxz.github.io/blob/master/assets/pdf/mobicom24-final263.pdf},
-    selected  =   {true}
+    selected  =   {true},
+    bibtex_show = {true}
 }
 
 @inproceedings{10.1145/3581791.3596835,
@@ -45,22 +49,13 @@
     series = {MobiSys '23},
     pdf = {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/2023.Leggiero.pdf},
     selected = {true},
-    bibtex_show=  {true},
+    bibtex_show=  {true},,
+    dimensions={true},
 
-}
-
-article{MobiSys2023,
-    abbr      =   {MobiSys 2023},
-    title     =   {Leggiero: Analog WiFi Backscatter with Payload Transparency},
-    author    =   {Na, Xin and Guo, Xiuzhen and Yu, Zihao and Zhang, Zihao and He, Yuan and Liu, Yunhao},
-    journal   =   {MobiSys},
-    year      =   {2023},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/2023.Leggiero.pdf},
-    selected  =   {true}
 }
 
 @article{10.1145/3530049,
-    abbe = {ACM CSUR},
+    abbr = {ACM CSUR},
     author = {He, Yuan and Guo, Xiuzhen and Zheng, Xiaolong and Yu, Zihao and Zhang, Jia and Jiang, Haotian and Na, Xin and Zhang, Jiacheng},
     title = {Cross-Technology Communication for the Internet of Things: A Survey},
     year = {2022},
@@ -81,16 +76,6 @@ article{MobiSys2023,
     pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/2022.CTC_Survey.pdf},
     selected  =   {true},
     bibtex_show=  {true},
-}
-
-article{ACM-CSUR,
-    abbr      =   {ACM CSUR},
-    title     =   {Cross-Technology Communication for the Internet of Things: A Survey},
-    author    =   {He, Yuan and Guo, Xiuzhen and Zheng, Xiaolong and Yu, Zihao and Zhang, Jia and Jiang, Haotian and Na, Xin and Zhang, Jiacheng},
-    journal   =   {ACM CSUR},
-    year      =   {2022},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/2022.CTC_Survey.pdf},
-    selected  =   {true}
 }
 
 @inproceedings{10.1145/3495243.3560549,
@@ -115,16 +100,6 @@ article{ACM-CSUR,
     bibtex_show=  {true}
 }
 
-article{MobiCom2022,
-    abbr      =   {MobiCom 2022},
-    title     =   {RF-Transformer: A Unified Backscatter Radio Hardware Abstraction},
-    author    =   {Guo, Xiuzhen and He, Yuan and Yu, Zihao and Zhang, Jiacheng and Liu, Yunhao and Shangguan, Longfei},
-    journal   =   {MobiCom},
-    year      =   {2022},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/transformer_mobicom.pdf},
-    selected  =   {true}
-}
-
 @inproceedings {276974,
     abbr      =   {NSDI 22},
     author = {Xiuzhen Guo and Longfei Shangguan and Yuan He and Nan Jing and Jiacheng Zhang and Haotian Jiang and Yunhao Liu},
@@ -136,22 +111,13 @@ article{MobiCom2022,
     pages = {437--451},
     url = {https://www.usenix.org/conference/nsdi22/presentation/guo},
     abstract = {The radio range of backscatter systems continues growing as new wireless communication primitives are continuously invented. Nevertheless, both the bit error rate and the packet loss rate of backscatter signals increase rapidly with the radio range, thereby necessitating the cooperation between the access point and the backscatter tags through a feedback loop. Unfortunately, the low-power nature of backscatter tags limits their ability to demodulate feedback signals from a remote access point and scales down to such circumstances.
+
 This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa backscatter systems. With Saiyan, a backscatter tag can demodulate feedback signals from a remote access point with moderate power consumption and then perform an immediate packet re-transmission in the presence of packet loss. Moreover, Saiyan enables rate adaption and channel hopping – two PHY-layer operations that are important to channel efficiency yet unavailable on long-range backscatter systems. We prototype Saiyan on a two-layer PCB board and evaluate its performance in different environments. Results show that Saiyan achieves 3.5–5× gain on the demodulation range, compared with state-of-the-art systems. Our ASIC simulation shows that the power consumption of Saiyan is around 93.2 µW. Code and hardware schematics can be found at: https://github.com/ZangJac/Saiyan.},
     publisher = {USENIX Association},
     month = apr,
     pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/saiyan_nsdi.pdf},
     selected  =   {true},
     bibtex_show=  {true}
-}
-
-article{NSDI2022CurvingLoRa,
-    abbr      =   {NSDI 2022},
-    title     =   {Saiyan: Design and Implementation of a Low-power Demodulator for LoRa Backscatter Systems},
-    author    =   {Guo, Xiuzhen and Shangguan, Longfei and He, Yuan and Jing, Nan and Zhang, Jiacheng and Jiang, Haotian and Liu, Yunhao},
-    journal   =   {NSDI},
-    year      =   {2022},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/saiyan_nsdi.pdf},
-    selected  =   {true}
 }
 
 @inproceedings {278330,
@@ -170,15 +136,6 @@ article{NSDI2022CurvingLoRa,
     slides = {https://www.usenix.org/system/files/nsdi22_slides_li-chenning.pdf},
     selected = {true},
     bibtex_show = {true},
-}
-
-article{NSDI2022Saiyan,
-    abbr      =   {NSDI 2022},
-    title     =   {CurvingLoRa to Boost LoRa Network Throughput via Concurrent Transmission},
-    author    =   {Li, Chenning and Guo, Xiuzhen and Shangguan, Longfei and Cao, Zhichao and Jamieson, kyle},
-    journal   =   {NSDI},
-    year      =   {2022},
-    selected  =   {true}
 }
 
 @inproceedings{10.1145/3485730.3485933,
@@ -203,21 +160,12 @@ article{NSDI2022Saiyan,
     bibtex_show = {true}
 }
 
-article{SenSys2021,
-    abbr      =   {SenSys 2021},
-    title     =   {Sense Me on the Ride: Accurate Mobile Sensing over a LoRa Backscatter Channel},
-    author    =   {Jiang, Haotian and Zhang, Jiacheng and Guo, Xiuzhen and He, Yuan},
-    journal   =   {SenSys},
-    year      =   {2021},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/palantir_confer.pdf},
-    selected  =   {true}
-}
-
 @article{9596585,
     abbr = {ToN'21},    
     author={Guo, Xiuzhen and Shangguan, Longfei and He, Yuan and Zhang, Jia and Jiang, Haotian and Siddiqi, Awais Ahmad and Liu, Yunhao},
     journal={IEEE/ACM Transactions on Networking}, 
     title={Efficient Ambient LoRa Backscatter With On-Off Keying Modulation}, 
+    abstract = {Backscatter communication holds potential for ubiquitous and low-cost connectivity among low-power IoT devices. To avoid interference between the carrier signal and the backscatter signal, recent works propose a frequency-shifting technique to separate these two signals in the frequency domain. Such proposals, however, have to occupy the precious wireless spectrum that is already overcrowded, and increase the power, cost, and complexity of the backscatter tag. In this paper, we revisit the classic ON-OFF Keying (OOK) modulation and propose Aloba, a backscatter system that takes the ambient LoRa transmissions as the excitation and piggybacks the in-band OOK modulated signals over the LoRa transmissions. Our design enables the backsactter signal to work in the same frequency band of the carrier signal, meanwhile achieving flexible data rate at different transmission range. The key contributions of Aloba include: i) the design of a low-power backscatter tag that can pick up the ambient LoRa signals from other signals; ii) a novel decoding algorithm to demodulate both the carrier signal and the backscatter signal from their superposition. We further adopt link coding mechanism and interleave operation to enhance the reliability of backscatter signal decoding. We implement Aloba and conduct head-to-head comparison with the state-ofthe-art LoRa backscatter system PLoRa in various settings. The experiment results show Aloba can achieve 39.5–199.4 Kbps data rate at various distances, 10.4–52.4× higher than PLoRa.},
     year={2022},
     volume={30},
     number={2},
@@ -229,21 +177,12 @@ article{SenSys2021,
     bibtex_show = {true}
 }
 
-article{ToN2021Efficient,
-    abbr      =   {ToN 2021},
-    title     =   {Efficient Ambient LoRa Backscatter with On-Off Keying Modulation},
-    author    =   {Guo, Xiuzhen and Shangguan, Longfei and He, Yuan and Zhang, Jia and Jiang, Haotian and Ahmad Siddiqi, Awais and Liu, Yunhao},
-    journal   =   {ToN},
-    year      =   {2021},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/aloba_ton.pdf},
-    selected  =   {true}
-}
-
 @article{9416311,
     abbr = {ToN'21},
     author={He, Yuan and Guo, Xiuzhen and Zhang, Jia and Jiang, Haotian},
     journal={IEEE/ACM Transactions on Networking}, 
     title={WIDE: Physical-Level CTC via Digital Emulation}, 
+    abstract = {Cross-Technology Communication (CTC) is an emerging technique that enables direct communication across different wireless technologies. Recent works achieve physicallevel CTC by emulating the standard time-domain waveform of the receiver. This method faces the challenges of inherent unreliability due to the imperfect emulation. Different from analog emulation, we propose a novel concept named digital emulation, which stems from the following insight: The receiver relies on phase shift rather than the phase itself to decode signals. Instead of emulating the original time-domain waveform, the sender emulates the phase shift associated with the desired signals. Clearly there are multiple different phase sequences that correspond to the same signs of phase shifts. Digital emulation has flexibility in setting the phase values in the emulated signals, which is effective in reducing emulation errors and enhancing the reliability of CTC. The key point of digital emulation is generic and applicable to a set of CTCs, where the transmitter has a wider bandwidth for emulation and the receiver decoding is based on the phase shift. In this paper, we implement our proposal as WIDE, a physical-level CTC via digital emulation from WiFi to ZigBee. We conduct extensive experiments to evaluate the performance of WIDE. The results show that WIDE significantly improves the Packet Reception Ratio (PRR) from 41.7% to 86.2%, which is 2× of WEBee’s, an existing representative physical-level CTC.},
     year={2021},
     volume={29},
     number={4},
@@ -253,16 +192,6 @@ article{ToN2021Efficient,
     pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/wide_ton.pdf},
     selected  =   {true},
     bibtex_show = {true}
-}
-
-article{ToN2021WIDE,
-    abbr      =   {ToN 2021},
-    title     =   {WIDE: Physical-level CTC via Digital Emulation},
-    author    =   {Guo, Xiuzhen and He, Yuan and Zhang, Jia and Zhang, Haotian},
-    journal   =   {ToN},
-    year      =   {2021},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/wide_ton.pdf},
-    selected  =   {true}
 }
 
 @inproceedings{10.1145/3384419.3430719,
@@ -286,15 +215,6 @@ article{ToN2021WIDE,
     bibtex_show = {true}
 }
 
-article{SenSys2020,
-    abbr      =   {SenSys 2020},
-    title     =   {Aloba: Rethinking ON-OFF Keying Modulation for Ambient LoRa Backscatter},
-    author    =   {Guo, Xiuzhen and Shangguan, Longfei and He, Yuan and Zhang, Jia and Jiang, Haotian and Siddiqi, Awais Ahmad and Liu, Yunhao},
-    journal   =   {SenSys},
-    year      =   {2020},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/aloba_confer.pdf}
-}
-
 @article{9177325,
     abbr = {ToN'20},
     author={Guo, Xiuzhen and He, Yuan and Zheng, Xiaolong},
@@ -311,15 +231,6 @@ article{SenSys2020,
     bibtex_show = {true}
 }
 
-article{ToN2020Cross,
-    abbr      =   {ToN 2020},
-    title     =   {Cross-Technology Energy Communication over a Noisy Channel},
-    author    =   {Guo, Xiuzhen and Zheng, Xiaolong and He, Yuan},
-    journal   =   {ToN},
-    year      =   {2020},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/wizig_ton.pdf}
-}
-
 @article{8970452,
     abbr      =   {ToN'20},
     author={Guo, Xiuzhen and He, Yuan and Zheng, Xiaolong and Yu, Liangcheng and Gnawali, Omprakash},
@@ -334,15 +245,6 @@ article{ToN2020Cross,
     doi={10.1109/TNET.2019.2962707},
     pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/zigfi_ton.pdf},
     bibtex_show = {true}
-}
-
-article{ToN2020Harnessing,
-    abbr      =   {ToN 2020},
-    title     =   {Harnessing Channel State Information for Cross-Technology Communication},
-    author    =   {Guo, Xiuzhen and He, Yuan and Zheng, Xiaolong and Yu, Liangcheng and Gnawali, Omprakash},
-    journal   =   {ToN},
-    year      =   {2020},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/zigfi_ton.pdf}
 }
 
 @article{10.1145/3469031,
@@ -369,16 +271,6 @@ article{ToN2020Harnessing,
     bibtex_show = {true}
 }
 
-article{ToSN2021,
-    abbr      =   {ToSN 2021},
-    title     =   {Taming the Errors in Cross-Technology Communication: A Probabilistic Approach},
-    author    =   {Guo, Xiuzhen and He, Yuan and Zhang, Jia and Jiang, Haotian and Yu, Zihao and Na, Xin},
-    journal   =   {ToSN},
-    year      =   {2021},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/web_tosn.pdf},
-    selected  =   {true}
-}
-
 @inproceedings{8732556,
     abbr = {IPSN'19},
     author={Guo, Xiuzhen and He, Yuan and Zhang, Jia and Jiang, Haotian},
@@ -393,15 +285,6 @@ article{ToSN2021,
     doi={10.1145/3302506.3310388},
     pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/wide_confer.pdf},
     bibtex_show = {true}
-}
-
-article{IPSN2019,
-    abbr      =   {IPSN 2019},
-    title     =   {WIDE: Physical-level CTC via Digital Emulation},
-    author    =   {Guo, Xiuzhen and He, Yuan and Zhang, Jia and Jiang, Haotian},
-    journal   =   {IPSN},
-    year      =   {2019},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/wide_confer.pdf}
 }
 
 @inproceedings{8737659,
@@ -420,15 +303,6 @@ article{IPSN2019,
     bibtex_show = {true}
 }
 
-article{INFOCOM2019,
-    abbr      =   {INFOCOM 2019},
-    title     =   {LEGO-Fi: Transmitter-Transparent CTC with Cross-Demapping},
-    author    =   {Guo, Xiuzhen and He, Yuan and Zheng, Xiaolong and Yu, Zihao and Liu, Yunhao},
-    journal   =   {INFOCOM},
-    year      =   {2019},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/Lego-Fi_confer.pdf}
-}
-
 @inproceedings{8486364,
     abbr = {INFOCOM'18},
     author={Guo, Xiuzhen and He, Yuan and Zheng, Xiaolong and Yu, Liangcheng and Gnawali, Omprakash},
@@ -443,15 +317,6 @@ article{INFOCOM2019,
     doi={10.1109/INFOCOM.2018.8486364},
     pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/ZigFi_confer.pdf},
     bibtex_show = {true}
-}
-
-article{INFOCOM2018,
-    abbr      =   {INFOCOM 2018},
-    title     =   {ZigFi: Harnessing Channel State Information for Cross-Technology Communication},
-    author    =   {Guo, Xiuzhen and He, Yuan and Zheng, Xiaolong and Yu, Liangcheng and Gnawali, Omprakash},
-    journal   =   {INFOCOM},
-    year      =   {2018},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/ZigFi_confer.pdf}
 }
 
 @inproceedings{8057108,
@@ -470,15 +335,6 @@ article{INFOCOM2018,
     bibtex_show = {true}
 }
 
-article{INFOCOM2017,
-    abbr      =   {INFOCOM 2017},
-    title     =   {WiZig: Cross-Technology Energy Communication over a Noisy Channel},
-    author    =   {Guo, Xiuzhen and Zheng, Xiaolong and He, Yuan},
-    journal   =   {INFOCOM},
-    year      =   {2017},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/WiZig_confer.pdf}
-}
-
 @article{9344714,
     abbr = {IoT Journal '21},
     author={Guo, Xiuzhen and He, Yuan and Zheng, Xiaolong and Yu, Zihao and Liu, Yunhao},
@@ -494,16 +350,6 @@ article{INFOCOM2017,
     doi={10.1109/JIOT.2021.3054669},
     pdf = {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/Lego-Fi_IoT.pdf},
     bibtex_show = {true}
-}
-
-
-article{IoTJournal2020,
-    abbr      =   {IoT Journal 2020},
-    title     =   {LEGOFi: Transmitter-Transparent CTC with Cross-Demapping},
-    author    =   {Guo, Xiuzhen and He, Yuan and Zheng, Xiaolong and Yu, Zihao and Liu, Yunhao},
-    journal   =   {IoT Journal},
-    year      =   {2020},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/legofi_iot.pdf}
 }
 
 @article{EWSN2019,
@@ -540,14 +386,6 @@ article{IoTJournal2020,
     bibtex_show = {true}
 }
 
-article{SECON2021 ,
-    abbr      =   {SECON 2021},
-    title     =   {Wi-attack: Cross-technology Impersonation Attack against iBeacon Services},
-    author    =   {Na, Xin and Guo, Xiuzhen and He, Yuan},
-    journal   =   {SECON},
-    year      =   {2021}
-}
-
 @inproceedings{9155437,
     abbr      =   {INFOCOM'20},
     author={Zhang, Jia and Guo, Xiuzhen and Jiang, Haotian and Zheng, Xiaolong and He, Yuan},
@@ -564,17 +402,8 @@ article{SECON2021 ,
     bibtex_show = {true}
 }
 
-article{INFOCOM2020 ,
-    abbr      =   {INFOCOM 2020},
-    title     =   {Link Quality Estimation of Cross Technology Communication},
-    author    =   {Zhang, Jia and Guo, Xiuzhen and Jiang, Haotian and Zheng, Xiaolong and He, Yuan},
-    journal   =   {INFOCOM},
-    year      =   {2020},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/link_confer.pdf},
-    address   =   {Canada}
-}
-
 @article{10.1145/3517255,
+    abbr = {UbiComp'22},
     author = {Wang, Weiguo and Li, Jinming and He, Yuan and Guo, Xiuzhen and Liu, Yunhao},
     title = {MotorBeat: Acoustic Communication for Home Appliances via Variable Pulse Width Modulation},
     year = {2022},
@@ -594,16 +423,6 @@ article{INFOCOM2020 ,
     pdf = {https://dl.acm.org/doi/pdf/10.1145/3517255},
     bibtex_show = {true}
 }
-
-article{UbiComp2022 ,
-    abbr      =   {UbiComp 2022},
-    title     =   {MotorBeat: Acoustic Communication for Home Appliances via Variable Pulse Width Modulation},
-    author    =   {Wang, Weiguo and Li, Jinming and He, Yuan and Guo, Xiuzhen and Liu, Yunhao},
-    journal   =   {UbiComp},
-    year      =   {2022},
-    selected  =   {true}
-}
-
 
 @article{MobiHoc2020,
     abbr      =   {MobiHoc 2020},
@@ -630,16 +449,6 @@ article{UbiComp2022 ,
     bibtex_show = {true}
 }
 
-article{SECON2019,
-    abbr      =   {SECON 2019},
-    title     =   {AdaComm: Tracing Channel Dynamics for Reliable Cross Technology Communication},
-    author    =   {Wang, Weiguo and Zheng, Xiaolong and He, Yuan and Guo, Xiuzhen},
-    journal   =   {SECON},
-    year      =   {2019},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/adacomm_confer.pdf},
-    address   =   {Boston, MA, USA}
-}
-
 @inproceedings{8486374,
     abbr = {INFOCOM'18},
     author={Zheng, Xiaolong and He, Yuan and Guo, Xiuzhen},
@@ -659,21 +468,12 @@ article{SECON2019,
     bibtex_show = {true}
 }
 
-article{INFOCOM2018 ,
-    abbr      =   {INFOCOM 2018},
-    title     =   {Stripcomm: Interference-resilient crosstechnology communication in coexisting environments},
-    author    =   {Zheng, Xiaolong and He, Yuan and Guo, Xiuzhen},
-    journal   =   {INFOCOM},
-    year      =   {2018},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/Stripcomm_confer.pdf},
-    address   =   {Honolulu, HI, USA}
-}
-
 @inproceedings{9546454,
     abbr = {ICDCS'21},
     author={Yu, Zihao and Li, Pengyu and Boano, Carlo Alberto and He, Yuan and Jin, Meng and Guo, Xiuzhen and Zheng, Xiaolong},
     booktitle={2021 IEEE 41st International Conference on Distributed Computing Systems (ICDCS)}, 
     title={BiCord: Bidirectional Coordination among Coexisting Wireless Devices}, 
+    abstract = {Cross-technology interference is a major threat to the dependability of low-power wireless communications. Due to power and bandwidth asymmetries, technologies such as Wi-Fi tend to dominate the RF channel and unintentionally destroy low-power wireless communications from resource-constrained technologies such as ZigBee, leading to severe coexistence issues. To address these issues, existing schemes make ZigBee nodes individually assess the RF channel's availability or let Wi-Fi appliances blindly reserve the medium for the transmissions of low-power devices. Without a two-way interaction between devices making use of different wireless technologies, these approaches have limited scenarios or achieve inefficient network performance. This paper presents BiCord, a bidirectional coordination scheme in which resource-constrained wireless devices such as ZigBee nodes and powerful Wi-Fi appliances coordinate their activities to increase coexistence and enhance network performance. Specifically, in BiCord, ZigBee nodes directly request channel resources from Wi-Fi devices, who then reserve the channel for ZigBee transmissions on-demand. This interaction continues until the transmission requirement of ZigBee nodes is both fulfilled and understood by Wi-Fi devices. This way, BiCord avoids unnecessary channel allocations, maximizes the availability of the spectrum, and minimizes transmission delays. We evaluate BiCord on off-the-shelf Wi-Fi and ZigBee devices, demonstrating its effectiveness experimentally. Among others, our results show that BiCord increases channel utilization by up to 50.6% and reduces the average transmission delay of ZigBee nodes by 84.2% compared to state-of-the-art approaches.},
     year={2021},
     volume={},
     number={},
@@ -682,14 +482,6 @@ article{INFOCOM2018 ,
     doi={10.1109/ICDCS51616.2021.00037},
     pdf = {https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9546454},
     bibtex_show = {true}
-}
-
-article{ICDCS2021,
-    abbr      =   {ICDCS 2021},
-    title     =   {BiCord: Bidirectional Coordination among Coexisting Wireless Devices},
-    author    =   {Yu, Zihao and Li, Pengyu and Boano, Carlo Alberto and He, Yuan and Jin, Meng and Guo, Xiuzhen},
-    journal   =   {ICDCS},
-    year      =   {2021}
 }
 
 @inproceedings{10.5555/3234847.3234865,
@@ -712,16 +504,6 @@ article{ICDCS2021,
     bibtex_show = {true}
 }
 
-article{EWSN2018,
-    abbr      =   {EWSN 2018},
-    title     =   {Crocs: Cross-Technology Clock Synchronization for WiFi and ZigBee},
-    author    =   {Yu, Zihao and Jiang, Chengkun and He, Yuan and Zheng, Xiaolong and Guo, Xiuzhen},
-    journal   =   {EWSN},
-    year      =   {2018},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/Crocs_confer.pdf},
-    address   =   {Madrid, Spain}
-}
-
 @INPROCEEDINGS{7950252,
     abbr = {MSN'16},
     author={Lian, Shuo and Guo, Xiuzhen and Guo, Zhenge and Zhao, Xu},
@@ -740,18 +522,6 @@ article{EWSN2018,
     address   =   {Hefei, China},
     bibtex_show = {true}
 }
-
-
-article{MSN2016,
-    abbr      =   {MSN 2016},
-    title     =   {Error Scene Restoration with Runtime Logs of Wireless Sensor Networks},
-    author    =   {Lian, Shuo and Guo, Xiuzhen and He, Yuan and Zhao, Xu},
-    journal   =   {MSN},
-    year      =   {2016},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/MSN.pdf},
-    address   =   {Hefei, China}
-}
-
 
 @article{s150715198,
     abbr = {Sensors},
@@ -772,20 +542,6 @@ article{MSN2016,
     bibtex_show = {true}
 }
 
-article{Sensors1,
-    abbr      =   {Sensors 2015},
-    title     =   {A Novel Feature Extraction Approach Using Window Function Capturing and QPSO-SVM for Enhancing Electronic Nose Performance},
-    author    =   {Guo, Xiuzhen and Peng, Chao and Zhang, Songlin and et al},
-    journal   =   {Sensors},
-    volume    =   {15},
-    number    =   {7},
-    pages     =   {15198-15217},
-    year      =   {2015},
-    month     =   {Jun.},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/sensor1.pdf}
-}
-
-
 @article{s151127804,
     abbr = {Sensors},
     author = {Yan, Jia and Guo, Xiuzhen and Duan, Shukai and Jia, Pengfei and Wang, Lidan and Peng, Chao and Zhang, Songlin},
@@ -803,17 +559,4 @@ article{Sensors1,
     month     =   {Nov.},
     pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/sensor2.pdf},
     bibtex_show = {true}
-}
-
-article{Sensors2,
-    abbr      =   {Sensors 2015},
-    title     =   {Electronic Nose Feature Extraction Methods: A Review},
-    author    =   {Jia, Yan and Guo, Xiuzhen and Duan, Shukai and et al},
-    journal   =   {Sensors},
-    volume    =   {15},
-    number    =   {11},
-    pages     =   {27804-27831},
-    year      =   {2015},
-    month     =   {Nov.},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/sensor2.pdf}
 }
