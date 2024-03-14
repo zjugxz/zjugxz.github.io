@@ -1,18 +1,65 @@
 ---
 layout: page
-title: Stripcomm
-description: Harnessing Channel State Information for Cross-Technology Communication.
+title: Recruitment
+description: blank
 img: blank
-importance: 9
+importance: 1
 category: recruitment
 ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/stripcomm_figure.jpg" title="wstripcomm_figure" class="img-fluid rounded z-depth-1" %}
+<div class="container_12">    
+      <div class="main">
+        <p> &nbsp;</p>
+        <p> &nbsp;</p>
+        <table cellspacing="3" cellpadding="0" width="1000" align="center">
+          <tbody>
+            <tr>
+              <td colspan="4" align="left" valign="top">
+                <h3>
+                  <div class="section">
+                    <span style="font-family: Arial; font-size:large;">
+                      <font size="5" color="#000080">Notes for Prospective Students</font>
+                    </span>
+                  </div>
+                </h3>
+                <span style="font-family: Arial; font-size:large;">
+                  <br>
+                  <i><b>Currently, I have openings for master students enrolled in the fall semester of 2024.
+                  <br>Please contact me if you are interested.</b></i>
+                  <br><br><br>
+                  I am looking for <b>self-motivated</b> PhD and Master students to work on research projects in wireless networking and ubiquitous computing. 
+                  My research interests include Internet of Things, Wireless Networking, and Ubiquitous Computing. We have been targeting our research papers to top conferences and journals. 
+                  Students in our team will have opportunities to work together with talented researchers all over the world, and will build a diverse skill in both system implementation and theoretical modeling.
+                  <br><br>
+                  Contact me if you fall into any of the following categories: 
+                  <ol>
+                    <li>Keen to solve challenging problems in the area of computer networks and systems.</li>
+                    <li>Enjoy implementing your own ideas and applying them in practice.</li>
+                    <li>Highly interested in cutting-edge information technologies that have great significance in industry and application fields.</li>
+                    <li>Love the research lifestyle, which means independent study and thinking, paper reading/writing, discussion/seminars, programming, experiments, and travelling all over the world for academic events.</li>
+                  </ol>
+                  Students with a major in Computer Science or Electrical Engineering are encouraged to apply. 
+                  <br><br>
+                  <b>Email</b>: guoxz@zju.edu.cn
+                  <br><br>
+                  <b>Wechat</b>: 
+                  <br>
+                  <img src="../assets/img/Wechat.png" alt="" width="266" height="266">
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="4" align="center" valign="top">
+              <p>
+                <span style="font-family: Arial; font-size:large;">
+                  <font size="2">LAST UPDATED: Mar, 2024 | COPYRIGHT © Xiuzhen Guo</font>
+                </span>
+              </p>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div> <!-- close main -->
     </div>
-</div>
-
-Existing packet-level CTCs based on amplitude modulation are not reliable in the coexisting environments. Although CTC can be free from the interference in the senders communication range by using RTS/CTS to reserve the channel, it is still easy for other ambient devices to introduce serious performance degradation of CTC. Considering the practice of IoT applications, how to make CTC resilient to interference is still an open problem. We propose StripComm, a novel CTC technique interconnecting WiFi and ZigBee devices in coexisting environments. We design a new interference-resilient modulation mechanism that encodes symbols by the changes of packet presence and absence to avoid the fallibility of the single state. We devise an interference-aware decoding mechanism that strips out the interference based on the distinguishable RSS patterns caused by the self-similarity of StripComm signals. The throughput of StripComm is 1.1Kbps with SER lower than 0.01 in a real office environment, and still 0.89Kbps even under strong interference.This work appears in the proceedings of IEEE INFOCOM 2018.
 
 
