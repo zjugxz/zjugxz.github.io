@@ -5,8 +5,8 @@ title: Notes for Prospective Students
 # <!-- description: Materials for courses you taught. Replace this text with your description. -->
 ---
 
-<font size="4"><b><i>Currently, I have openings for master students enrolled in the fall semester of 2024.</i></b></font>
-<font size="4"><b><i>Please contact me if you are interested.</i></b></font>
+<font size="4"><b><i>Currently, I have openings for master students enrolled in the fall semester of 2024.</i></b></font><br>
+<font size="4"><b><i>Please contact me if you are interested.</i></b></font><br><br>
 
 
 I am looking for <b>self-motivated</b> PhD and Master students to work on research projects in wireless networking and ubiquitous computing. 
@@ -29,4 +29,8 @@ Wechat:
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Wechat.png" title="Wechat" %}
     </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="" title="" %}
+    </div>
 </div>
+s
