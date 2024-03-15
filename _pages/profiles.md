@@ -46,7 +46,7 @@ nav_order: 7
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/People_photo/Kaixuan_Xie_Master.jpg" title="Kaixuan Xie" class="img-fluid rounded z-depth-1"  style='height: 100%'%}
+        {% include figure.liquid loading="eager" path="assets/img/People_photo/Kaixuan_Xie.jpg" title="Kaixuan Xie" class="img-fluid rounded z-depth-1"  style='height: 100%'%}
         <div class = 'caption'>Kaixuan Xie<br>Master student</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
