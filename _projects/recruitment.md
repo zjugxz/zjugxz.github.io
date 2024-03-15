@@ -9,8 +9,9 @@ category: recruitment
 
 
 
-<font size="5"><i>Currently, I have openings for master students enrolled in the fall semester of 2024.</i></font>
-<font size="5"><i>Please contact me if you are interested.</i></font>
+<font size="4"><b><i>Currently, I have openings for master students enrolled in the fall semester of 2024.</i></b></font>
+<font size="4"><b><i>Please contact me if you are interested.</i></b></font>
+
 
 I am looking for <b>self-motivated</b> PhD and Master students to work on research projects in wireless networking and ubiquitous computing. 
 My research interests include Internet of Things, Wireless Networking, and Ubiquitous Computing. We have been targeting our research papers to top conferences and journals. 
@@ -29,7 +30,7 @@ Students with a major in Computer Science or Electrical Engineering are encourag
 Wechat:
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Wechat.png" title="Wechat" %}
     </div>
 </div>
