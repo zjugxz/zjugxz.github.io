@@ -7,39 +7,51 @@ nav: true
 nav_order: 7
 ---
 <div>
-  <h2 class="category">PhD</h2>
+  <h3 style='text-align: right; color: gray;'>PhD</h3>
 </div>
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <div class = 'caption'>xiekaixuan<br>PhD student</div>
+        {% include figure.liquid loading="eager" path="assets/img/People_photo/Long_Tan_PhD.jpg" title="Long Tan" class="img-fluid rounded z-depth-1" %}
+        <div class = 'caption'>Long Tan<br>PhD student</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <div class = 'caption'>xiekaixuan<br>PhD student</div>
+        {% include figure.liquid loading="eager" path="assets/img/People_photo/Xinghua_Guo_phd.jpg" title="Xinghua Guo" class="img-fluid rounded z-depth-1" %}
+        <div class = 'caption'>Xinghua Guo<br>PhD student</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <div class = 'caption'>xiekaixuan<br>PhD student</div>
+        {% include figure.liquid loading="eager" path="assets/img/People_photo/Yifan_Yan_PhD.jpg" title="Yifan Yan" class="img-fluid rounded z-depth-1" %}
+        <div class = 'caption'>Yifan Yan<br>PhD student</div>
     </div>
 </div>
 
 <div>
-  <h2 class="category">Master</h2>
+  <h3 style='text-align: right; color: gray;'>Master</h3>
 </div>
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <div class = 'caption'>xiekaixuan<br>Master student</div>
+        {% include figure.liquid loading="eager" path="assets/img/People_photo/Chuchuan_Ceng_Master.jpg" title="Chuchuan Ceng" class="img-fluid rounded z-depth-1" %}
+        <div class = 'caption'>Chuchuan Ceng<br>Master student</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <div class = 'caption'>xiekaixuan<br>Master student</div>
+        {% include figure.liquid loading="eager" path="assets/img/People_photo/Liang_Xue_Master .jpg" title="Liang Xue" class="img-fluid rounded z-depth-1" %}
+        <div class = 'caption'>Liang Xue<br>Master student</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <div class = 'caption'>xiekaixuan<br>Master student</div>
+        {% include figure.liquid loading="eager" path="assets/img/People_photo/Zhou_Yang_Master .jpg" title="Zhou Yang" class="img-fluid rounded z-depth-1" %}
+        <div class = 'caption'>Zhou Yang<br>Master student</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/People_photo/Kaixuan_Xie_Master.jpg" title="Kaixuan Xie" class="img-fluid rounded z-depth-1" %}
+        <div class = 'caption'>Kaixuan Xie<br>Master student</div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
