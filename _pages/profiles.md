@@ -19,7 +19,7 @@ profiles:
   - align: left
     image: People_photo/Liang_Xue_Master .jpg
     content: 
-    image_circular: true # crops the image to make it circular
+    image_circular: false # crops the image to make it circular
     more_info: >
       <p>Liang Xue</p>
       <p>Master student</p>
