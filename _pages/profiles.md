@@ -37,7 +37,7 @@ nav_order: 6
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/People_photo/Liang_Xue_Master .jpg" title="Liang Xue" class="img-fluid rounded z-depth-1" style='height: 100%'%}
-        <div class = 'caption'>Liang Xue<br>Master student</div>
+        <div class = 'caption'>Liang Xue<br>Visiting student</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/People_photo/Zhou_Yang_Master .jpg" title="Zhou Yang" class="img-fluid rounded z-depth-1" style='height: 100%'%}
