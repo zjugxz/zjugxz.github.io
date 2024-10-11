@@ -61,7 +61,7 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
-      - name: Install Imagemagick  # 添加这个步骤来安装 Imagemagick
+      - name: Install Imagemagick # 添加这个步骤来安装 Imagemagick
         run: sudo apt-get install imagemagick
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1

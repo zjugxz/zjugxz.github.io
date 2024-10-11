@@ -1,5 +1,5 @@
 ---
-2024-10-11 modified
+modified：2024-10-11 
 ---
 
 @string{aps = {American Physical Society,}}
@@ -48,7 +48,6 @@
     pages = {437--451},
     url = {https://www.usenix.org/conference/nsdi22/presentation/guo},
     publisher = {USENIX Association},
-    month = apr,
     abbr = {NSDI'22},
     bibtex_show = {true},
     selected = {true}
@@ -65,7 +64,7 @@
     doi = {10.1145/3636534.3649366},
     abstract = {The elderly over 65 accounts for 80\% of COVID deaths in the United States. In response to the pandemic, the federal, state governments, and commercial insurers are promoting video visits, through which the elderly can access specialists at home over the Internet, without the risk of COVID exposure. However, the current video visit practice barely relies on video observation and talking. The specialist could not assess the patient's health conditions by performing auscultations.This paper tries to address this key missing component in video visits by proposing Asclepius, a hardware-software solution that turns the patient's earphones into a stethoscope, allowing the specialist to hear the patient's fine-grained heart sound (i.e., PCG signals) in video visits. To achieve this goal, we contribute a low-cost plug-in peripheral that repurposes the earphone's speaker into a microphone and uses it to capture the patient's minute PCG signals from her ear canal. As the PCG signals suffer from strong attenuation and multi-path effects when propagating from the heart to ear canals, we then propose efficient signal processing algorithms coupled with a data-driven approach to de-reverberate and further correct the amplitude and frequency distortion in raw PCG receptions. We implement Asclepius on a 2-layer PCB board and follow the IRB protocol to evaluate its performance with 30 volunteers. Our extensive experiments show that Asclepius can effectively recover Phonocardiogram (PCG) signals with different types of earphones. The objective blind testing and subjective interview with five cardiologists further confirm the clinical efficacy and efficiency of our system. PCG signal samples, benchmark results, and cardiologist interviews can be found at: https://asclepius-system.github.io/},
     booktitle = {Proceedings of the 30th Annual International Conference on Mobile Computing and Networking},
-    pages = {357–372},
+    pages = {357-372},
     numpages = {16},
     keywords = {remote health, cardiac monitoring, earable computing},
     location = {Washington D.C., DC, USA},
@@ -155,7 +154,6 @@
     url = {https://www.usenix.org/conference/nsdi22/presentation/guo},
     abstract = {The radio range of backscatter systems continues growing as new wireless communication primitives are continuously invented. Nevertheless, both the bit error rate and the packet loss rate of backscatter signals increase rapidly with the radio range, thereby necessitating the cooperation between the access point and the backscatter tags through a feedback loop. Unfortunately, the low-power nature of backscatter tags limits their ability to demodulate feedback signals from a remote access point and scales down to such circumstances. This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa backscatter systems. With Saiyan, a backscatter tag can demodulate feedback signals from a remote access point with moderate power consumption and then perform an immediate packet re-transmission in the presence of packet loss. Moreover, Saiyan enables rate adaption and channel hopping – two PHY-layer operations that are important to channel efficiency yet unavailable on long-range backscatter systems. We prototype Saiyan on a two-layer PCB board and evaluate its performance in different environments. Results show that Saiyan achieves 3.5–5× gain on the demodulation range, compared with state-of-the-art systems. Our ASIC simulation shows that the power consumption of Saiyan is around 93.2 µW. Code and hardware schematics can be found at: https://github.com/ZangJac/Saiyan.},
     publisher = {USENIX Association},
-    month = apr,
     pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/saiyan_nsdi.pdf},
     selected  =   {true},
     bibtex_show=  {true}
@@ -173,7 +171,6 @@
     pages = {879--895},
     url = {https://www.usenix.org/conference/nsdi22/presentation/li-chenning},
     publisher = {USENIX Association},
-    month = apr,
     pdf = {https://www.usenix.org/system/files/nsdi22-paper-li_chenning.pdf},
     slides = {https://www.usenix.org/system/files/nsdi22_slides_li-chenning.pdf},
     selected = {true},
@@ -194,7 +191,6 @@
     doi = {10.1145/3631588.3631594},
     abstract = {The proliferation of Internet of Things (IoT) applications brings about the increasingly dense deployments of various wireless devices (e.g., Wi-Fi, ZigBee, Bluetooth, LoRa, etc.). The coexistence of heterogeneous wireless devices puts forward more stringent requirements for the adaptability and flexibility of the backscatter design [1]. In order to integrate seamlessly into heterogeneous wireless networks, the backscatter radio should be able to interplay directly with different technologies while maintaining ultra-low power consumption [2].},
     journal = {GetMobile: Mobile Comp. and Comm.},
-    month = nov,
     pages = {18-22},
     numpages = {5},
     abbr = {GetMobile'23},
@@ -286,7 +282,6 @@
     pages = {879--895},
     url = {https://www.usenix.org/conference/nsdi22/presentation/li-chenning},
     publisher = {USENIX Association},
-    month = apr,
     abbr = {NSDI'22},
     bibtex_show = {true},
     selected = {true}
@@ -304,7 +299,7 @@
     doi = {10.1145/3384419.3430719},
     abstract = {Backscatter communication holds potential for ubiquitous and low-cost connectivity among low-power IoT devices. To avoid interference between the carrier signal and the backscatter signal, recent works propose a frequency-shifting technique to separate these two signals in the frequency domain. Such proposals, however, have to occupy the precious wireless spectrum that is already overcrowded, and increase the power, cost, and complexity of the backscatter tag. In this paper, we revisit the classic ON-OFF Keying (OOK) modulation and propose Aloba, a backscatter system that takes the ambient LoRa transmissions as the excitation and piggybacks the in-band OOK modulated signals over the LoRa transmissions. Our design enables the backsactter signal to work in the same frequency band of the carrier signal, meanwhile achieving good tradeoff between transmission range and link throughput. The key contributions of Aloba include: i) the design of a low-power backscatter tag that can pick up the ambient LoRa signals from other signals; ii) a novel decoding algorithm to demodulate both the carrier signal and the backscatter signal from their superposition. The design of Aloba completely unleashes the backscatter tag's ability in OOK modulation and achieves flexible data rate at different transmission range. We implement Aloba and conduct head-to-head comparison with the state-of-the-art LoRa backscatter system PLoRa in various settings. The experiment results show Aloba can achieve 39.5--199.4 Kbps data rate at various distances, 10.4--52.4X higher than PLoRa.},
     booktitle = {Proceedings of the 18th Conference on Embedded Networked Sensor Systems},
-    pages = {192–204},
+    pages = {192-204},
     numpages = {13},
     keywords = {on-off keying modulation, ambient lora backscatter},
     location = {Virtual Event, Japan},
@@ -426,7 +421,6 @@
     selected = {true}
 }
 
-
 @inproceedings{8737659,
     abbr = {INFOCOM'19},
     author={Guo, Xiuzhen and He, Yuan and Zheng, Xiaolong and Yu, Zihao and Liu, Yunhao},
@@ -544,7 +538,7 @@
     publisher={Institute of Electrical and Electronics Engineers (IEEE)},
     author={Zhang, Jia and Xi, Rui and He, Yuan and Sun, Yimiao and Guo, Xiuzhen and Wang, Weiguo and Na, Xin and Liu, Yunhao and Shi, Zhenguo and Gu, Tao},
     year={2023},
-    pages={2052–2087},
+    pages={2052-2087},
     abbr = {COMST'23},
     selected = {true},
     bibtex_show = {true}
@@ -801,7 +795,7 @@
     numpages = {20},
     keywords = {Acoustic Sensing, Gesture Detection, Wearable Computing},
     location = {Honolulu, HI, USA},
-    series = {CHI '24},
+    series = {CHI'24},
     abbr = {CHI'24},
     bibtex_show = {true},
     selected = {true}
@@ -818,7 +812,7 @@
     doi = {10.1145/3581791.3596835},
     abstract = {Backscatter is an enabling technology for battery-free sensing in today's Artificial Intelligence of Things (AIOT). Building a backscatter-based sensing system, however, is a daunting task, due to two obstacles: the unaffordable power consumption of the microprocessor and the coexistence with the ambient carrier's traffic. In order to address the above issues, in this paper, we present Leggiero, the first-of-its-kind analog WiFi backscatter with payload transparency. Leveraging a specially designed circuit with a varactor diode, this design avoids using a microprocessor to interface between the radio and the sensor, and directly converts the analog sensor signal into the phase of RF (radio frequency) signal. By carefully designing the reference circuit on the tag and precisely locating the extra long training field (LTF) section of a WiFi packet, Leggiero embeds the analog phase value into the channel state information (CSI). A commodity WiFi receiver without hardware modification can simultaneously decode the WiFi and the sensor data. We implement Leggiero design and evaluate its performance under varied settings. The results show that the power consumption of the Leggiero tag (excluding the power of the peripheral sensor module) is 30μW at a sampling rate of 400Hz, which is 4.8\texttimes{} and 4\texttimes{} lower than the state-of-the-art WiFi backscatter schemes. The uplink throughput of Leggiero is suficient to support a variety of sensing applications, while keeping the WiFi carrier's throughput performance unaffected.},
     booktitle = {Proceedings of the 21st Annual International Conference on Mobile Systems, Applications and Services},
-    pages = {436–449},
+    pages = {436-449},
     numpages = {14},
     keywords = {RF computing, phase, analog, backscatter},
     location = {Helsinki, Finland},
@@ -842,7 +836,6 @@
     doi = {10.1145/3482527},
     abstract = {Research on cross-technology communication (CTC) has made rapid progress in recent years. While the CTC links are complex and dynamic, how to estimate the quality of a CTC link remains an open and challenging problem. Through our observation and study, we find that none of the existing approaches can be applied to estimate the link quality of CTC. Built upon the physical-level emulation, transmission over a CTC link is jointly affected by two factors: the emulation error and the channel distortion. Furthermore, the channel distortion can be modeled and observed through the signal strength and the noise strength. We, in this article, propose a new link metric called C-LQI and a joint link model that simultaneously takes into account the emulation error and the channel distortion in the In-phase and Quadrature (IQ) domain. We accurately describe the superimposed impact on the received signal. We further design a lightweight link estimation approach including two different methods to estimate C-LQI and in turn the packet reception rate (PRR) over the CTC link. We implement C-LQI and compare it with two representative link estimation approaches. The results demonstrate that C-LQI reduces the relative estimation error by 49.8\% and 51.5\% compared with s-PRR and EWMA, respectively.},
     journal = {ACM Trans. Sen. Netw.},
-    month = oct,
     articleno = {14},
     numpages = {20},
     keywords = {Cross-technology, link quality estimation},
@@ -865,7 +858,6 @@
     doi = {10.1145/3676848},
     abstract = {Flow scheduling plays a pivotal role in enabling Time-Sensitive Networking (TSN) applications. Current flow scheduling mainly adopts a centralized scheme, posing challenges in adapting to dynamic network conditions and scaling up for larger networks. To address these challenges, we first thoroughly analyze the flow scheduling problem and find the inherent locality nature of time scheduling tasks. Leveraging this insight, we introduce the first distributed framework for IEEE 802.1Qbv TSN flow scheduling. In this framework, we further propose a multi-agent flow scheduling method by designing Deep Reinforcement Learning (DRL)-based route and time agents for route and time planning tasks. The time agents are deployed on field devices to schedule flows in a distributed way. Evaluations in dynamic scenarios validate the effectiveness and scalability of our proposed method. It enhances the scheduling success rate by 20.31\% compared to state-of-the-art methods and achieves substantial cost savings, reducing transmission costs by 410\texttimes{} in large-scale networks. Additionally, we validate our approach on edge devices and a TSN testbed, highlighting its lightweight nature and ease of deployment.},
     journal = {ACM Trans. Sen. Netw.},
-    month = jul,
     articleno = {104},
     numpages = {30},
     keywords = {Time-sensitive networking, distributed scheduling, deep reinforcement learning},
@@ -885,7 +877,7 @@
     doi = {10.1145/3560905.3568092},
     abstract = {Earables are embedded devices that can be placed in, on, or around the ear to sense human motions and physiological activities over an extended period of time. However, today's earable design principle heavily relies on dedicated sensors (e.g., accelerometer, gyroscope, proximity sensor), which inevitably adds cost, weight, and power consumption to earable devices, constituting a critical bottleneck in their wide adoption. Moreover, the tight coupling of sensors with onboard microcontrollers makes existing earables difficult to program, raising the barrier of entry to earable computing.In this poster, we describe HeadFi II, a stand-alone earable computing platform that integrates sensing and computing into a tiny hardware device with low power and computation footprint. We describe the design guideline and technical challenges as well as potential solutions. We believe this project would open up a new dimension of cutting-edge research and exciting educational opportunities. The developed solutions will lead to considerable advancements in both low-power hardware designs and efficient earable sensing algorithms, lowering the barrier of entry to earable computing by providing the research community with a versatile earable platform.},
     booktitle = {Proceedings of the 20th ACM Conference on Embedded Networked Sensor Systems},
-    pages = {827–828},
+    pages = {827-828},
     numpages = {2},
     location = {Boston, Massachusetts},
     series = {SenSys '22},
@@ -905,7 +897,7 @@
     doi = {10.1145/3397166.3409134},
     abstract = {Opportunistic forwarding seizes early forwarding opportunities in duty-cycled networks to reduce delay and energy consumption. But increasingly serious Cross-Technology Interference (CTI) significantly counteracts the benefits of opportunistic forwarding. Existing solutions try to reserve the channel for low-power networks by implicit avoidance or explicit coordination but ignore the potential of high-power CTI's superior capability. In this paper, we propose a new paradigm for low-power opportunistic forwarding in CTI environments. Instead of keeping high-power CTI devices silent, we directly involve them into the forwarding, as cross-technology forwarders. We design Portal to solve the challenges of realizing cross-technology opportunistic forwarding. To be transparent to the low-power networks, Portal adopts cross-technology rebroadcasting to enable the fast overhearing and forwarding of cross-technology data. To maximize the performance gain of using heterogeneous forwarders while minimizing the influence on legacy high-power traffic, we propose a post-forwarding forwarder selection and a traffic scheduling method. We also propose a feature-based ACK recognition method and a jamming-based ACK replying mechanism to forward the unreliable ACKs from asymmetric regions. Extensive experiments demonstrate that Portal not only avoids the CTI but also breaks through the existing performance limit.},
     booktitle = {Proceedings of the Twenty-First International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing},
-    pages = {241–250},
+    pages = {241-250},
     numpages = {10},
     keywords = {cross-technology communication, low-power, opportunistic forwarding, wireless networks},
     location = {Virtual Event, USA},
@@ -926,7 +918,7 @@
     doi = {10.1145/3643832.3661890},
     abstract = {We present the design and implementation of EarVoice, a lightweight mobile service that enables hands-free voice assistant activation on commodity earphones. EarVoice comprises two design modules: one for joint speech detection and primary user identification that explores the attributes of the air channel and in-body audio pathway to differentiate between the primary user and others nearby; and another for accurate wakeup word enhancement, which employs a "copy, paste, and adapt" approach to reconstruct the missing high-frequency component in speech recordings. To minimize false positives, enhance agility, and preserve privacy, we deploy EarVoice on a dongle where the proposed signal processing algorithms are streamlined with a gating mechanism to permit only the primary user's speech to enter the pairing device (e.g., a smartphone) for wakeup word recognition, preventing unintended disclosure of ambient conversations. We implemented the dongle on a 4-layer PCB board and conducted extensive experiments with 23 participants in both controlled and uncontrolled scenarios. The experiment results show that EarVoice achieves around 90\% wakeup word recognition accuracy in stationary scenarios, which is on par with the high-end, multi-sensor fusion-based Airpods Pro earbud. EarVoice's performance drops to 84\% on mobile cases, slightly worse than Airpods (around 90\%).},
     booktitle = {Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications and Services},
-    pages = {155–168},
+    pages = {155-168},
     numpages = {14},
     keywords = {voice activation, bone conduction, earable computing},
     location = {Minato-ku, Tokyo, Japan},
@@ -948,7 +940,7 @@
     keywords={IEEE 802.15 Standard;Wireless communication;Wireless sensor networks;Time-frequency analysis;Schedules;Interference;Throughput;Autonomous scheduling;Efficiency;IEEE 802.15.4e;Orchestra;Low-power wireless communication;nRF52840;Performance evaluation;Reliability;RF Interference;Time-slotted channel hopping},
     doi={10.1109/IPSN54338.2022.00035},
     ISSN={},
-    month={May},,
+    month={May},
     abbr = {IPSN'22},
     bibtex_show = {true},
     selected = {true}
@@ -961,7 +953,7 @@
     eprint={2408.05358},
     archivePrefix={arXiv},
     primaryClass={eess.SP},
-    url={https://arxiv.org/abs/2408.05358},,
+    url={https://arxiv.org/abs/2408.05358},
     abbr = {ICDCS'24},
     bibtex_show = {true},
     selected = {true}
@@ -978,7 +970,7 @@
     doi = {10.1145/3625687.3625786},
     abstract = {WiFi-based device localization is a key enabling technology for smart applications, which has attracted numerous research studies in the past decade. Most of the existing approaches rely on Line-of-Sight (LoS) signals to work, while a critical problem is often neglected: In the real-world indoor environments, WiFi signals are everywhere, but very few of them are usable for accurate localization. As a result, the localization accuracy in practice is far from being satisfactory. This paper presents Bifrost, a novel hardwaresoftware co-design for accurate indoor localization. The core idea of Bifrost is to reinvent WiFi signals, so as to provide sufficient LoS signals for localization. This is realized by exploiting the dispersion effect of signals emitted by the leaky wave antenna (LWA). We present a low-cost plug-in design of LWA that can generate orthogonal polarized signals: On one hand, LWA disperses signals of different frequencies to different angles, thus providing Angle-of-Arrival (AoA) information for the localized target. On the other hand, the target further leverages the antenna polarization mismatch to distinguish AoAs from different LWAs. In the software layer, fine-grained information in Channel State Information (CSI) is exploited to cope with multipath and noise. We implement Bifrost and evaluate its performance under various settings. The results show that the median localization error of Bifrost is 0.81m, which is 52.35\% less than that of SpotFi, a state-of-the-art approach. SpotFi, when combined with Bifrost to work in the realistic settings, can reduce the localization error by 33.54\%.},
     booktitle = {Proceedings of the 21st ACM Conference on Embedded Networked Sensor Systems},
-    pages = {376–389},
+    pages = {376-389},
     numpages = {14},
     keywords = {wifi localization, indoor localization, leaky wave antenna, RF computing},
     location = {Istanbul, Turkiye},
