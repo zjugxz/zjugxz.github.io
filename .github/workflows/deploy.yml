@@ -75,9 +75,11 @@ jobs:
           value: ${{ github.repository }}
       - name: Install and Build 🔧
         run: |
-          pip3 install --upgrade jupyter
+          python3 -m venv .venv  # 创建虚拟环境
+          source .venv/bin/activate  # 激活虚拟环境
+          pip install --upgrade jupyter  # 安装 Jupyter(可选,如果需要)
           export JEKYLL_ENV=production
-          bundle exec jekyll build --lsi
+          bundle exec jekyll build  # 移除 --lsi 选项
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
