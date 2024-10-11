@@ -3,16 +3,25 @@
 
 @string{aps = {American Physical Society,}}
 
-@inproceedings{guo24mobicom, 
-    abbr      =   {MobiCom'24},
-    title     =   {{Exploring Biomagnetism for Inclusive Vital Sign Monitoring: Modeling and Implementation}}, 
-    author    =   {Xiuzhen Guo and Long Tan and Tao Chen and Chaojie Gu and Yuanchao Shu and Shibo He and Yuan He and Jiming Chen and Longfei Shangguan}, 
-    booktitle =   {ACM International Conference on Mobile Computing and Networking (MobiCom)}, 
-    year      =   {2024},
-    month     =   {10},
-    selected  =   {true},
-    bibtex_show=  {true},
-    abstract  =   {This paper presents the design, implementation, and evaluation of MagWear, a novel biomagnetism-based system that can accurately and inclusively monitor the heart rate and respiration rate of mobile users with diverse skin tones. MagWear's contributions are twofold. Firstly, we build a mathematical model that characterizes the magnetic coupling effect of blood flow under the influence of an external magnetic field. This model uncovers the variations in accuracy when monitoring vital signs among individuals. Secondly, leveraging insights derived from this mathematical model, we present a softwarehardware co-design that effectively handles the impact of human diversity on the performance of vital sign monitoring, pushing this generic solution one big step closer to real adoptions. We have implemented a prototype of MagWear on a two-layer PCB board and followed IRB protocols to conduct system evaluations. Our extensive experiments involving 30 volunteers demonstrate that MagWear achieves high monitoring accuracy with a mean percentage error (MPE) of 1.55% for heart rate and 1.79% for respiration rate. The head-tohead comparison with Apple Watch 8 further demonstrates MagWear's consistently high performance in different user conditions.}
+@inproceedings{10.1145/3636534.3649349,
+    author = {Guo, Xiuzhen and Tan, Long and Chen, Tao and Gu, Chaojie and Shu, Yuanchao and He, Shibo and He, Yuan and Chen, Jiming and Shangguan, Longfei},
+    title = {Exploring Biomagnetism for Inclusive Vital Sign Monitoring: Modeling and Implementation},
+    year = {2024},
+    isbn = {9798400704895},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3636534.3649349},
+    doi = {10.1145/3636534.3649349},
+    abstract = {This paper presents the design, implementation, and evaluation of MagWear, a novel biomagnetism-based system that can accurately and inclusively monitor the heart rate and respiration rate of mobile users with diverse skin tones. MagWear's contributions are twofold. Firstly, we build a mathematical model that characterizes the magnetic coupling effect of blood flow under the influence of an external magnetic field. This model uncovers the variations in accuracy when monitoring vital signs among individuals. Secondly, leveraging insights derived from this mathematical model, we present a softwarehardware co-design that effectively handles the impact of human diversity on the performance of vital sign monitoring, pushing this generic solution one big step closer to real adoptions. We have implemented a prototype of MagWear on a two-layer PCB board and followed IRB protocols to conduct system evaluations. Our extensive experiments involving 30 volunteers demonstrate that MagWear achieves high monitoring accuracy with a mean percentage error (MPE) of 1.55\% for heart rate and 1.79\% for respiration rate. The head-to-head comparison with Apple Watch 8 further demonstrates MagWear's consistently high performance in different user conditions.},
+    booktitle = {Proceedings of the 30th Annual International Conference on Mobile Computing and Networking},
+    pages = {93-107},
+    numpages = {15},
+    keywords = {wearable health, mobile computing, magnetic sensing},
+    location = {Washington D.C., DC, USA},
+    series = {ACM MobiCom '24},
+    abbr = {MobiCom'24},
+    bibtex_show = {true},
+    selected = {true}
 }
 
 @inproceedings{yang2024trident,
@@ -28,18 +37,41 @@
     abstract = {Backscatter is an enabling technology for battery-free sensing in industrial IoT applications. For the purpose of full coverage of numerous tags in the deployment area, one often needs to deploy multiple readers, each of which is to communicate with tags within its communication range. But the actual backscattered signals from a tag are likely to reach a reader outside its communication range, causing undesired interference. Conventional approaches for interference avoidance, either TDMA or CSMA based, separate the readers’ media accesses in the time dimension and suffer from limited network throughput. In this paper, we propose TRIDENT, a novel backscatter tag design that enables interference avoidance with frequency-space division. By incorporating a tunable bandpass filter and multiple terminal loads, a TRIDENT tag is able to detect its channel condition and adaptively adjust the frequency band and the power of its backscattered signals, so that all the readers in the network can operate concurrently without being interfered. We implement TRIDENT and evaluate its performance under various settings. The results demonstrate that TRIDENT enhances the network throughput by 3.18×, compared to the TDMA based scheme.}
 }
 
-@inproceedings{ACMMobiCom2024,
-    abbr      =   {MobiCom'24},
-    title     =   {Exploring the Feasibility of Remote Cardiac Auscultation Using Earphones.},
-    author    =   {Chen, Tao and Yang, Yongjie and Fan, Xiaoran and Guo, Xiuzhen and Xiong, Jie and Shangguan, Longfei},
-    abstract = {The elderly over 65 accounts for 80% of COVID deaths in the United States. In response to the pandemic, the federal, state governments, and commercial insurers are promoting video visits, through which the elderly can access specialists at home over the Internet, without the risk of COVID exposure. However, the current video visit practice barely relies on video observation and talking. The specialist could not assess the patient’s health conditions by performing auscultations.
+@inproceedings {276974,
+    author = {Xiuzhen Guo and Longfei Shangguan and Yuan He and Nan Jing and Jiacheng Zhang and Haotian Jiang and Yunhao Liu},
+    title = {Saiyan: Design and Implementation of a Low-power Demodulator for LoRa Backscatter Systems},
+    booktitle = {19th USENIX Symposium on Networked Systems Design and Implementation (NSDI 22)},
+    year = {2022},
+    isbn = {978-1-939133-27-4},
+    address = {Renton, WA},
+    pages = {437--451},
+    url = {https://www.usenix.org/conference/nsdi22/presentation/guo},
+    publisher = {USENIX Association},
+    month = apr,
+    abbr = {NSDI'22},
+    bibtex_show = {true},
+    selected = {true}
+}
 
-This paper tries to address this key missing component in video visits by proposing Asclepius, a hardware-software solution that turns the patient’s earphones into a stethoscope, allowing the specialist to hear the patient’s fine-grained heart sound (i.e., PCG signals) in video visits. To achieve this goal, we contribute a low-cost plug-in peripheral that repurposes the earphone’s speaker into a microphone and uses it to capture the patient’s minute PCG signals from her ear canal. As the PCG signals suffer from strong attenuation and multi-path effects when propagating from the heart to ear canals, we then propose efficient signal processing algorithms coupled with a data-driven approach to de-reverberate and further correct the amplitude and frequency distortion in raw PCG receptions. We implement Asclepius on a 2-layer PCB board and follow the IRB protocol to evaluate its performance with 30 volunteers. Our extensive experiments show that Asclepius can effectively recover Phonocardiogram (PCG) signals with different types of earphones. The objective blind testing and subjective interview with five cardiologists further confirm the clinical efficacy and efficiency of our system. PCG signal samples, benchmark results, and cardiologist interviews can be found at: https://asclepius-system.github.io/},
-    booktitle =   {ACM International Conference on Mobile Computing and Networking (MobiCom)},
-    year      =   {2024},
-    pdf       =   {https://zjugxz.github.io/assets/pdf/mobicom24-final263.pdf},
-    selected  =   {true},
-    bibtex_show = {true}
+@inproceedings{10.1145/3636534.3649366,
+    author = {Chen, Tao and Yang, Yongjie and Fan, Xiaoran and Guo, Xiuzhen and Xiong, Jie and Shangguan, Longfei},
+    title = {Exploring the Feasibility of Remote Cardiac Auscultation Using Earphones},
+    year = {2024},
+    isbn = {9798400704895},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3636534.3649366},
+    doi = {10.1145/3636534.3649366},
+    abstract = {The elderly over 65 accounts for 80\% of COVID deaths in the United States. In response to the pandemic, the federal, state governments, and commercial insurers are promoting video visits, through which the elderly can access specialists at home over the Internet, without the risk of COVID exposure. However, the current video visit practice barely relies on video observation and talking. The specialist could not assess the patient's health conditions by performing auscultations.This paper tries to address this key missing component in video visits by proposing Asclepius, a hardware-software solution that turns the patient's earphones into a stethoscope, allowing the specialist to hear the patient's fine-grained heart sound (i.e., PCG signals) in video visits. To achieve this goal, we contribute a low-cost plug-in peripheral that repurposes the earphone's speaker into a microphone and uses it to capture the patient's minute PCG signals from her ear canal. As the PCG signals suffer from strong attenuation and multi-path effects when propagating from the heart to ear canals, we then propose efficient signal processing algorithms coupled with a data-driven approach to de-reverberate and further correct the amplitude and frequency distortion in raw PCG receptions. We implement Asclepius on a 2-layer PCB board and follow the IRB protocol to evaluate its performance with 30 volunteers. Our extensive experiments show that Asclepius can effectively recover Phonocardiogram (PCG) signals with different types of earphones. The objective blind testing and subjective interview with five cardiologists further confirm the clinical efficacy and efficiency of our system. PCG signal samples, benchmark results, and cardiologist interviews can be found at: https://asclepius-system.github.io/},
+    booktitle = {Proceedings of the 30th Annual International Conference on Mobile Computing and Networking},
+    pages = {357–372},
+    numpages = {16},
+    keywords = {remote health, cardiac monitoring, earable computing},
+    location = {Washington D.C., DC, USA},
+    series = {ACM MobiCom '24},
+    abbr = {MobiCom'24},
+    bibtex_show = {true},
+    selected = {true}
 }
 
 @inproceedings{10.1145/3581791.3596835,
@@ -65,7 +97,7 @@ This paper tries to address this key missing component in video visits by propos
 }
 
 @article{10.1145/3530049,
-    abbr = {ACM CSUR},
+    abbr = {CSUR'22},
     author = {He, Yuan and Guo, Xiuzhen and Zheng, Xiaolong and Yu, Zihao and Zhang, Jia and Jiang, Haotian and Na, Xin and Zhang, Jiacheng},
     title = {Cross-Technology Communication for the Internet of Things: A Survey},
     year = {2022},
@@ -100,7 +132,7 @@ This paper tries to address this key missing component in video visits by propos
     doi = {10.1145/3495243.3560549},
     abstract = {This paper presents RF-Transformer, a unified backscatter radio hardware abstraction that allows a low-power IoT device to directly communicate with heterogeneous wireless receivers at the minimum power consumption. Unlike existing backscatter systems that are tailored to a specific wireless communication protocol, RF-Transformer provides a programmable interface to the micro-controller, allowing IoT devices to synthesize different types of protocol-compliant backscatter signals sharing radically different PHY-layer designs. To show the efficacy of our design, we implement a PCB prototype of RF-Transformer on 2.4 GHz ISM band and showcase its capability on generating standard ZigBee, Bluetooth, LoRa, and Wi-Fi 802.11b/g/n/ac packets. Our extensive field studies show that RF-Transformer achieves 23.8 Mbps, 247.1 Kbps, 986.5 Kbps, and 27.3 Kbps throughput when generating standard Wi-Fi, ZigBee, Bluetooth, and LoRa signals while consuming 7.6--74.2X less power than their active counterparts. Our ASIC simulation based on the 65-nm CMOS process shows that the power gain of RF-Transformer can further grow to 92--678X. We further integrate RF-Transformer with pressure sensors and present a case study on detecting foot traffic density in hallways. Our 7-day case studies demonstrate RF-Transformer can reliably transmit sensor data to a commodity gateway by synthesizing LoRa packets on top of Wi-Fi signals. Our experimental results also verify the compatibility of RF-Transformer with commodity receivers. Code and hardware schematics can be found at: https://github.com/LeFsCC/RF-Transformer.},
     booktitle = {Proceedings of the 28th Annual International Conference on Mobile Computing And Networking},
-    pages = {446–458},
+    pages = {446-458},
     numpages = {13},
     keywords = {PHY layer design, backscatter technology, internet of things (IoT), wireless communication},
     location = {Sydney, NSW, Australia},
@@ -120,9 +152,7 @@ This paper tries to address this key missing component in video visits by propos
     address = {Renton, WA},
     pages = {437--451},
     url = {https://www.usenix.org/conference/nsdi22/presentation/guo},
-    abstract = {The radio range of backscatter systems continues growing as new wireless communication primitives are continuously invented. Nevertheless, both the bit error rate and the packet loss rate of backscatter signals increase rapidly with the radio range, thereby necessitating the cooperation between the access point and the backscatter tags through a feedback loop. Unfortunately, the low-power nature of backscatter tags limits their ability to demodulate feedback signals from a remote access point and scales down to such circumstances.
-
-This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa backscatter systems. With Saiyan, a backscatter tag can demodulate feedback signals from a remote access point with moderate power consumption and then perform an immediate packet re-transmission in the presence of packet loss. Moreover, Saiyan enables rate adaption and channel hopping – two PHY-layer operations that are important to channel efficiency yet unavailable on long-range backscatter systems. We prototype Saiyan on a two-layer PCB board and evaluate its performance in different environments. Results show that Saiyan achieves 3.5–5× gain on the demodulation range, compared with state-of-the-art systems. Our ASIC simulation shows that the power consumption of Saiyan is around 93.2 µW. Code and hardware schematics can be found at: https://github.com/ZangJac/Saiyan.},
+    abstract = {The radio range of backscatter systems continues growing as new wireless communication primitives are continuously invented. Nevertheless, both the bit error rate and the packet loss rate of backscatter signals increase rapidly with the radio range, thereby necessitating the cooperation between the access point and the backscatter tags through a feedback loop. Unfortunately, the low-power nature of backscatter tags limits their ability to demodulate feedback signals from a remote access point and scales down to such circumstances. This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa backscatter systems. With Saiyan, a backscatter tag can demodulate feedback signals from a remote access point with moderate power consumption and then perform an immediate packet re-transmission in the presence of packet loss. Moreover, Saiyan enables rate adaption and channel hopping – two PHY-layer operations that are important to channel efficiency yet unavailable on long-range backscatter systems. We prototype Saiyan on a two-layer PCB board and evaluate its performance in different environments. Results show that Saiyan achieves 3.5–5× gain on the demodulation range, compared with state-of-the-art systems. Our ASIC simulation shows that the power consumption of Saiyan is around 93.2 µW. Code and hardware schematics can be found at: https://github.com/ZangJac/Saiyan.},
     publisher = {USENIX Association},
     month = apr,
     pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/saiyan_nsdi.pdf},
@@ -149,6 +179,28 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
     bibtex_show = {true}
 }
 
+@article{10.1145/3631588.3631594,
+    author = {Guo, Xiuzhen and He, Yuan and Liu, Yunhao and Shangguan, Longfei},
+    title = {A New Design Paradigm for Polymorphic Backscatter Radios},
+    year = {2023},
+    issue_date = {September 2023},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    volume = {27},
+    number = {3},
+    issn = {2375-0529},
+    url = {https://doi.org/10.1145/3631588.3631594},
+    doi = {10.1145/3631588.3631594},
+    abstract = {The proliferation of Internet of Things (IoT) applications brings about the increasingly dense deployments of various wireless devices (e.g., Wi-Fi, ZigBee, Bluetooth, LoRa, etc.). The coexistence of heterogeneous wireless devices puts forward more stringent requirements for the adaptability and flexibility of the backscatter design [1]. In order to integrate seamlessly into heterogeneous wireless networks, the backscatter radio should be able to interplay directly with different technologies while maintaining ultra-low power consumption [2].},
+    journal = {GetMobile: Mobile Comp. and Comm.},
+    month = nov,
+    pages = {18-22},
+    numpages = {5},
+    abbr = {GetMobile'23},
+    selected  =   {true},
+    bibtex_show = {true}
+}
+
 @inproceedings{10.1145/3485730.3485933,
     abbr = {SenSys'21},
     author = {Jiang, Haotian and Zhang, Jiacheng and Guo, Xiuzhen and He, Yuan},
@@ -161,7 +213,7 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
     doi = {10.1145/3485730.3485933},
     abstract = {Wireless sensing has great significance in Internet of Things (IoT) applications and has attracted substantial research interests in academia. In this study, we propose Palantir, a first-of-its-kind long-range sensing system based on the LoRa backscatter technology. By utilizing the ON-OFF-Keying modulated backscatter signals, Palantir can perform fine-grained long-range cyclist sensing. Our findings show that sensing is more susceptible to channel quality than communication. Hence, the design of Palantir particularly addresses the critical challenges of signal processing, such as amplitude instability, frequency offset, clock drift, spectrum leakage, and multiplicative noise. We implement Palantir and evaluate its performance by conducting comprehensive benchmark experiments. A prototype is also built and a case study of respiration monitoring in the real world is implemented. Results demonstrate that Palantir can perform accurate sensing at a range up to 100 m, which is twice that of state-of-the-art approaches. The median deviation of the detected motion period is as low as 0.2\%.},
     booktitle = {Proceedings of the 19th ACM Conference on Embedded Networked Sensor Systems},
-    pages = {125–137},
+    pages = {125-137},
     numpages = {13},
     keywords = {Backscatter, LoRa, Sensing},
     location = {Coimbra, Portugal},
@@ -172,7 +224,7 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
 }
 
 @article{9596585,
-    abbr = {ToN'21},    
+    abbr = {ToN'22},    
     author={Guo, Xiuzhen and Shangguan, Longfei and He, Yuan and Zhang, Jia and Jiang, Haotian and Siddiqi, Awais Ahmad and Liu, Yunhao},
     journal={IEEE/ACM Transactions on Networking}, 
     title={Efficient Ambient LoRa Backscatter With On-Off Keying Modulation}, 
@@ -205,6 +257,40 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
     bibtex_show = {true}
 }
 
+@ARTICLE{10534222,
+    author={Guo, Xiuzhen and He, Yuan and Nan, Jing and Zhang, Jiacheng and Liu, Yunhao and Shangguan, Longfei},
+    journal={IEEE/ACM Transactions on Networking}, 
+    title={A Low-Power Demodulator for LoRa Backscatter Systems With Frequency-Amplitude Transformation}, 
+    year={2024},
+    volume={32},
+    number={4},
+    pages={3515-3527},
+    abstract={The radio range of backscatter systems continues growing as new wireless communication primitives are continuously invented. Nevertheless, both the bit error rate and the packet loss rate of backscatter signals increase rapidly with the radio range, thereby necessitating the cooperation between the access point and the backscatter tags through a feedback loop. Unfortunately, the low-power nature of backscatter tags limits their ability to demodulate feedback signals from a remote access point and scales down to such circumstances. This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa backscatter systems. Saiyan is based on an observation that a frequency-modulated chirp signal can be transformed into an amplitude-modulated signal using a differential circuit. Moreover, we redesign a LoRa backscatter tag which integrates Saiyan and a ring oscillator-based modulator. The LoRa backscatter tag enables re-transmission, rate adaption and channel hopping – three PHY-layer operations that are important to channel efficiency yet unavailable on existing long-range backscatter systems. We prototype Saiyan and the LoRa backscatter tag on two PCB boards and evaluate their performance in different environments. Results show that Saiyan achieves 3.5– $5\times $  gain on the demodulation range, compared with state-of-the-art systems. Our ASIC simulation shows that the power consumption of Saiyan and the LoRa backscatter tag are around  $93.2~\mu W$  and  $94.7~\mu W$ . Code and hardware schematics can be found at: https://github.com/ZangJac/Saiyan.},
+    keywords={Backscatter;Demodulation;SAW filters;Chirp;Time-frequency analysis;Frequency conversion;Power demand;Wireless networks;backscatter communication;LoRa;low-power demodulator},
+    doi={10.1109/TNET.2024.3396509},
+    ISSN={1558-2566},
+    month={Aug},
+    abbr = {TON'24},
+    bibtex_show = {true},
+    selected = {true}
+}
+
+@inproceedings {278330,
+    author = {Chenning Li and Xiuzhen Guo and Longfei Shangguan and Zhichao Cao and Kyle Jamieson},
+    title = {{CurvingLoRa} to Boost {LoRa} Network Throughput via Concurrent Transmission},
+    booktitle = {19th USENIX Symposium on Networked Systems Design and Implementation (NSDI 22)},
+    year = {2022},
+    isbn = {978-1-939133-27-4},
+    address = {Renton, WA},
+    pages = {879--895},
+    url = {https://www.usenix.org/conference/nsdi22/presentation/li-chenning},
+    publisher = {USENIX Association},
+    month = apr,
+    abbr = {NSDI'22},
+    bibtex_show = {true},
+    selected = {true}
+}
+
 @inproceedings{10.1145/3384419.3430719,
     abbr = {SenSys'20},
     author = {Guo, Xiuzhen and Shangguan, Longfei and He, Yuan and Zhang, Jia and Jiang, Haotian and Siddiqi, Awais Ahmad and Liu, Yunhao},
@@ -223,7 +309,28 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
     location = {Virtual Event, Japan},
     series = {SenSys '20},
     pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/aloba_confer.pdf},
-    bibtex_show = {true}
+    bibtex_show = {true},
+    selected = {true}
+}
+
+@ARTICLE {10681497,
+    author = {X. Guo and Y. He and J. Zhang and Y. Liu and L. Shangguan},
+    journal = {IEEE/ACM Transactions on Networking},
+    title = {Towards Programmable Backscatter Radio Design for Heterogeneous Wireless Networks},
+    year = {5555},
+    volume = {},
+    number = {01},
+    issn = {1558-2566},
+    pages = {1-13},
+    abstract = {This paper presents, a unified backscatter radio hardware abstraction that allows a low-power IoT device to directly communicate with heterogeneous wireless receivers. Unlike existing backscatter systems that are tailored to a specific wireless communication protocol, provides a programmable interface to the micro-controller, allowing IoT devices to synthesize different types of protocol-compliant backscatter signals in the PHY layer. By leveraging the nonlinear characteristics of the negative impedance, also achieves a cross-frequency backscatter design that enables IoT devices in harmonic frequency bands to communicate with each other. We implement a PCB prototype of on 2.4 GHz ISM band and conduct extensive experiments. We leverage the software defined platform USRP to transmit the carrier signal and receive the backscatter signal to verify the efficacy of our design. Our extensive field studies show that achieves 23.8 Mbps, 247.1 Kbps, 986.5 Kbps, and 27.3 Kbps throughput when generating standard Wi-Fi, ZigBee, Bluetooth, and LoRa signals.},
+    keywords = {backscatter;wireless fidelity;lora;internet of things;zigbee;wireless networks;receivers},
+    doi = {10.1109/TNET.2024.3454095},
+    publisher = {IEEE Computer Society},
+    address = {Los Alamitos, CA, USA},
+    month = {sep},
+    abbr = {TON'24},
+    bibtex_show = {true},
+    selected = {true}
 }
 
 @article{9177325,
@@ -255,11 +362,12 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
     keywords={Zigbee;Wireless fidelity;Interference;Wireless communication;Receivers;Throughput;Protocols;Cross-technology;ZigBee to WiFi;Channel State Information},
     doi={10.1109/TNET.2019.2962707},
     pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/zigfi_ton.pdf},
-    bibtex_show = {true}
+    bibtex_show = {true},
+    selected = {true}
 }
 
 @article{10.1145/3469031,
-    abbr      =   {ToSN'21},
+    abbr      =   {TOSN'21},
     author = {Guo, Xiuzhen and He, Yuan and Zhang, Jia and Jiang, Haotian and Yu, Zihao and Na, Xin},
     title = {Taming the Errors in Cross-Technology Communication: A Probabilistic Approach},
     year = {2021},
@@ -295,8 +403,28 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
     keywords={Emulation;Zigbee;Wireless fidelity;Receivers;Standards;Reliability;Payloads;Cross-Technology Communication;Digital emulation},
     doi={10.1145/3302506.3310388},
     pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/wide_confer.pdf},
-    bibtex_show = {true}
+    bibtex_show = {true},
+    selected = {true}
 }
+
+@ARTICLE{10660525,
+    author={Guo, Xiuzhen and Tan, Long and Gu, Chaojie and Shu, Yuanchao and He, Shibo and Chen, Jiming},
+    journal={IEEE Transactions on Mobile Computing}, 
+    title={MagWear: Vital Sign Monitoring based on Biomagnetism Sensing}, 
+    year={2024},
+    volume={},
+    number={},
+    pages={1-14},
+    abstract={This paper presents the design, implementation, and evaluation of MagWear, a novel biomagnetism-based system that can accurately and inclusively monitor the heart rate, respiration rate, and blood pressure of users. MagWear's contributions are twofold. Firstly, we build a mathematical model that characterizes the magnetic coupling effect of blood flow under the influence of an external magnetic field. This model uncovers the variations in accuracy when monitoring vital signs among individuals. Secondly, leveraging insights derived from this mathematical model, we present a software-hardware co-design that effectively handles the impact of human diversity on the performance of vital sign monitoring, pushing this generic solution one big step closer to real adoptions. Following IRB protocols, our extensive experiments involving 30 volunteers demonstrate that MagWear achieves high monitoring accuracy with a mean percentage error (MPE) of 1.55% for heart rate (HR), 1.79% for respiration rate (RR), 3.35% for systolic blood pressure (SBP), and 3.89% for diastolic blood pressure (DBP). MagWear can also be extended to detect anemia and blood oxygen saturation, which is also our ongoing work. Code and hardware schematics can be found at: https://github.com/tanwork/MagWear.},
+    keywords={Monitoring;Heart rate;Biomedical monitoring;Accuracy;Skin;Wearable devices;Mobile computing;Wearable Health;Mobile Computing;Magnetic Sensing},
+    doi={10.1109/TMC.2024.3452499},
+    ISSN={1558-0660},
+    month={},
+    abbr = {TMC'24},
+    bibtex_show = {true},
+    selected = {true}
+}
+
 
 @inproceedings{8737659,
     abbr = {INFOCOM'19},
@@ -311,7 +439,8 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
     keywords={Zigbee;Wireless fidelity;Receivers;Synchronization;Throughput;Wireless communication;Standards},
     doi={10.1109/INFOCOM.2019.8737659},
     pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/Lego-Fi_confer.pdf},
-    bibtex_show = {true}
+    bibtex_show = {true},
+    selected = {true}
 }
 
 @inproceedings{8486364,
@@ -327,7 +456,8 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
     keywords={ZigBee;Wireless fidelity;Wireless communication;Throughput;Interference;Bandwidth;Conferences},
     doi={10.1109/INFOCOM.2018.8486364},
     pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/ZigFi_confer.pdf},
-    bibtex_show = {true}
+    bibtex_show = {true},
+    selected = {true}
 }
 
 @inproceedings{8057108,
@@ -343,11 +473,12 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
     keywords={Receivers;Wireless communication;Throughput;Error analysis;Noise measurement;Wireless sensor networks;Modulation},
     doi={10.1109/INFOCOM.2017.8057108},
     pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/WiZig_confer.pdf},
-    bibtex_show = {true}
+    bibtex_show = {true},
+    selected = {true}
 }
 
 @article{9344714,
-    abbr = {IoT Journal '21},
+    abbr = {IOTJ'21},
     author={Guo, Xiuzhen and He, Yuan and Zheng, Xiaolong and Yu, Zihao and Liu, Yunhao},
     journal={IEEE Internet of Things Journal}, 
     title={LEGO-Fi: Transmitter-Transparent CTC With Cross-Demapping}, 
@@ -360,7 +491,8 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
     keywords={Zigbee;Wireless fidelity;Throughput;Receivers;Standards;Payloads;Synchronization;Cross-demapping;cross-technology;ZigBee-to-WiFi},
     doi={10.1109/JIOT.2021.3054669},
     pdf = {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/Lego-Fi_IoT.pdf},
-    bibtex_show = {true}
+    bibtex_show = {true},
+    selected = {true}
 }
 
 @article{EWSN2019,
@@ -378,7 +510,43 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
     title     =   {Location Tracking over a LoRa Backscattering Channel},
     author    =   {Zhang, Jiacheng and Guo, Xiuzhen and He, Yuan},
     journal   =   {CWSN},
-    year      =   {2021}
+    year      =   {2021},
+    selected = {true}
+}
+
+@ARTICLE{10216957,
+    author={Gao, Demin and Wang, Haoyu and Guo, Xiuzhen and Wang, Lei and Gui, Guan and Wang, Weizheng and Yin, Zhimeng and Wang, Shuai and Liu, Yunhuai and He, Tian},
+    journal={IEEE Internet of Things Journal}, 
+    title={Federated Learning Based on CTC for Heterogeneous Internet of Things}, 
+    year={2023},
+    volume={10},
+    number={24},
+    pages={22673-22685},
+    abstract={Federated learning (FL) is a machine learning technique that allows for on-site data collection and processing without sacrificing data privacy and transmission. Heterogeneity is a key challenge in federated settings. Recently, cross-technology communication (CTC) has emerged as a solution for Internet of Things (IoT) heterogeneity, enabling direct communication between different wireless devices without the need for hardware modifications or gateway intervention. For example, a sophisticated WiFi device can serve as a central coordinator for other heterogeneous devices, such as LoRa, ZigBee, Bluetooth, and LTE, leading to more efficient and ubiquitous cross-network information exchange. However, heterogeneous wireless technologies present different data transmission rates and computing resources, making it difficult to achieve high accuracy in predictions due to large amounts of multidimensional data, communication delays, transmission latency, limited processing capacity, and data privacy concerns. In this work, we propose an FL framework based on CTC for heterogeneous IoT applications, called FLCTC. To demonstrate the usability of FLCTC, we implemented FLCTC and a specific solution for forest fire prediction. FLCTC was concretely implemented as a federal deep learning based on long and short-term memory and used for forest fire prediction, addressing the challenge of data characterization in heterogeneous IoT networks. FLCTC promises to improve communication efficiency and prediction accuracy. Our platform-based evaluation results show that FLCTC is feasible, with a recall of 96% and an accuracy of 88%, offering valuable insights into the use of FL with CTC for heterogeneous IoT applications.},
+    keywords={Internet of Things;Federated learning;Wireless fidelity;Zigbee;Forestry;Wireless communication;Servers;Heterogeneous networks;Cross-technology communication (CTC);federated learning (FL);heterogeneous Internet of Things (IoT) networks},
+    doi={10.1109/JIOT.2023.3305189},
+    ISSN={2327-4662},
+    month={Dec},
+    abbr = {IOTJ'23},
+    selected = {true},
+    bibtex_show = {true}
+}
+
+@article{Zhang_2023,
+    title={A Survey of mmWave-Based Human Sensing: Technology, Platforms and Applications},
+    volume={25},
+    ISSN={2373-745X},
+    url={http://dx.doi.org/10.1109/COMST.2023.3298300},
+    DOI={10.1109/comst.2023.3298300},
+    number={4},
+    journal={IEEE Communications Surveys &amp; Tutorials},
+    publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+    author={Zhang, Jia and Xi, Rui and He, Yuan and Sun, Yimiao and Guo, Xiuzhen and Wang, Weiguo and Na, Xin and Liu, Yunhao and Shi, Zhenguo and Gu, Tao},
+    year={2023},
+    pages={2052–2087},
+    abbr = {COMST'23},
+    selected = {true},
+    bibtex_show = {true}
 }
 
 @inproceedings{9491605,
@@ -393,7 +561,8 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
     pages={1-9},
     keywords={Location awareness;Meters;Protocols;Emulation;Fingerprint recognition;Hardware;Sensors},
     doi={10.1109/SECON52354.2021.9491605},
-    pdf = {https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9491605}
+    pdf = {https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9491605},
+    selected = {true}
 }
 
 @inproceedings{9155437,
@@ -408,7 +577,8 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
     pages={496-505},
     keywords={Emulation;Distortion;Receivers;Measurement;ZigBee;Estimation;Wireless communication;cross technology communication;link quality estimation},
     doi={10.1109/INFOCOM41043.2020.9155437},
-    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/link_confer.pdf}
+    pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/link_confer.pdf},
+    selected = {true}
 }
 
 @article{10.1145/3517255,
@@ -430,7 +600,8 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
     numpages = {24},
     keywords = {Acoustic Communication, Electric Motor, Home Appliance, Smart Speaker},
     pdf = {https://dl.acm.org/doi/pdf/10.1145/3517255},
-    bibtex_show = {true}
+    bibtex_show = {true},
+    selected = {true}
 }
 
 @article{MobiHoc2020,
@@ -455,7 +626,47 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
     keywords={Decoding;Training;Zigbee;Wireless fidelity;Reliability;Adaptation models;Receivers},
     doi={10.1109/SAHCN.2019.8824843},
     pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/adacomm_confer.pdf},
-    bibtex_show = {true}
+    bibtex_show = {true},
+    selected = {true}
+}
+
+@INPROCEEDINGS{8486374,
+    author={Zheng, Xiaolong and He, Yuan and Guo, Xiuzhen},
+    booktitle={IEEE INFOCOM 2018 - IEEE Conference on Computer Communications}, 
+    title={StripComm: Interference-Resilient Cross-Technology Communication in Coexisting Environments}, 
+    year={2018},
+    volume={},
+    number={},
+    pages={171-179},
+    abstract={Cross- Technology Communication (CTC) is an emerging technique to enable the direct communication among different wireless technologies. A main category of the existing proposals on CTC propose to modulate packets at the sender side, and demodulate them into 1 and 0 bits at the receiver side. The performance of those proposals is likely to degrade in a densely coexisting environment. Solely judged according to the received signal strength, a symbol 0 that is modulated as packet absence is generally indistinguishable from dynamic interference. In this paper, we propose StripComm, interference-resilient CTC in coexisting environments. A sender in StripComm adopts an interference-resilient coding scheme that contains both presence and absence of packets in one symbol. The receiver strips the interference from the interested signal by exploiting the self-similarity of StripComm signals. We prototype StripComm with commercial WiFi, ZigBee devices and a software radio platform. The theoretical and experimental evaluation demonstrate that StripComm offers a data rate up to 1.1K bps with a SER (Symbol Error Rate) lower than 0.01 and a data rate of 0.89K bps even against strong interference.},
+    keywords={Interference;Wireless fidelity;Receivers;ZigBee;Wireless communication;Encoding;Signal to noise ratio},
+    doi={10.1109/INFOCOM.2018.8486374},
+    ISSN={},
+    month={April},
+    abbr = {INFOCOM'18},
+    bibtex_show = {true},
+    selected = {true}
+}
+
+@inproceedings{10.1145/3570361.3613279,
+    author = {Wang, Weiguo and He, Yuan and Jin, Meng and Sun, Yimiao and Guo, Xiuzhen},
+    title = {Meta-Speaker: Acoustic Source Projection by Exploiting Air Nonlinearity},
+    year = {2023},
+    isbn = {9781450399906},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3570361.3613279},
+    doi = {10.1145/3570361.3613279},
+    abstract = {This paper proposes Meta-Speaker, an innovative speaker capable of projecting audible sources into the air with a high level of manipulability. Unlike traditional speakers that emit sound waves in all directions, Meta-Speaker can manipulate the granularity of the audible region, down to a single point, and can manipulate the location of the source. Additionally, the source projected by Meta-Speaker is a physical presence in space, allowing both humans and machines to perceive it with spatial awareness. Meta-Speaker achieves this by leveraging the fact that air is a nonlinear medium, which enables the reproduction of audible sources from ultrasounds. Meta-Speaker comprises two distributed ultrasonic arrays, each transmitting a narrow ultrasonic beam. The audible source can be reproduced at the intersection of the beams. We present a comprehensive profiling of Meta-Speaker to validate the high manipulability it offers. We prototype Meta-Speaker and demonstrate its potential through three applications: anchor-free localization with a median error of 0.13 m, location-aware communication with a throughput of 1.28 Kbps, and acoustic augmented reality where users can perceive source direction with a mean error of 9.8 degrees.},
+    booktitle = {Proceedings of the 29th Annual International Conference on Mobile Computing and Networking},
+    articleno = {65},
+    numpages = {15},
+    keywords = {acoustic field manipulation, air nonlinearity, speaker, acoustic sensing, acoustic communication, localization},
+    location = {Madrid, Spain},
+    series = {ACM MobiCom '23},
+    abbr = {MobiCom'23},
+    bibtex_show = {true},
+    selected = {true}
 }
 
 @inproceedings{8486374,
@@ -474,7 +685,8 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
     month={April},
     pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/Stripcomm_confer.pdf},
     address   =   {Honolulu, HI, USA},
-    bibtex_show = {true}
+    bibtex_show = {true},
+    selected = {true}
 }
 
 @inproceedings{9546454,
@@ -490,7 +702,8 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
     keywords={Wireless communication;Performance evaluation;Radio frequency;Zigbee;Interference;White spaces;Delays;Coexistence;Cross-technology interference;Cross-technology communication;Device coordination},
     doi={10.1109/ICDCS51616.2021.00037},
     pdf = {https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9546454},
-    bibtex_show = {true}
+    bibtex_show = {true},
+    selected = {true}
 }
 
 @inproceedings{10.5555/3234847.3234865,
@@ -510,7 +723,8 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
     series = {EWSN '18},
     pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/Crocs_confer.pdf},
     address   =   {Madrid, Spain},
-    bibtex_show = {true}
+    bibtex_show = {true},
+    selected = {true}
 }
 
 @INPROCEEDINGS{7950252,
@@ -529,7 +743,8 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
     month={Dec},
     pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/MSN.pdf},
     address   =   {Hefei, China},
-    bibtex_show = {true}
+    bibtex_show = {true},
+    selected = {true}
 }
 
 @article{s150715198,
@@ -568,4 +783,206 @@ This paper presents Saiyan, an ultra-low-power demodulator for long-range LoRa b
     month     =   {Nov.},
     pdf       =   {http://tns.thss.tsinghua.edu.cn/sun/members/XiuzhenGuo/sensor2.pdf},
     bibtex_show = {true}
+}
+
+@inproceedings{10.1145/3613904.3642437,
+    author = {Yang, Yongjie and Chen, Tao and Huang, Yujing and Guo, Xiuzhen and Shangguan, Longfei},
+    title = {MAF: Exploring Mobile Acoustic Field for Hand-to-Face Gesture Interactions},
+    year = {2024},
+    isbn = {9798400703300},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3613904.3642437},
+    doi = {10.1145/3613904.3642437},
+    abstract = {We present MAF, a novel acoustic sensing approach that leverages the commodity hardware in bone conduction earphones for hand-to-face gesture interactions. Briefly, by shining audio signals with bone conduction earphones, we observe that these signals not only propagate along the surface of the human face but also dissipate into the air, creating an acoustic field that envelops the individual’s head. We conduct benchmark studies to understand how various hand-to-face gestures and human factors influence this acoustic field. Building on the insights gained from these initial studies, we then propose a deep neural network combined with signal preprocessing techniques. This combination empowers MAF to effectively detect, segment, and subsequently recognize a variety of hand-to-face gestures, whether in close contact with the face or above it. Our comprehensive evaluation based on 22 participants demonstrates that MAF achieves an average gesture recognition accuracy of 92\% across ten different gestures tailored to users’ preferences.},
+    booktitle = {Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems},
+    articleno = {638},
+    numpages = {20},
+    keywords = {Acoustic Sensing, Gesture Detection, Wearable Computing},
+    location = {Honolulu, HI, USA},
+    series = {CHI '24},
+    abbr = {CHI'24},
+    bibtex_show = {true},
+    selected = {true}
+}
+
+@inproceedings{10.1145/3581791.3596835,
+    author = {Na, Xin and Guo, Xiuzhen and Yu, Zihao and Zhang, Jia and He, Yuan and Liu, Yunhao},
+    title = {Leggiero: Analog WiFi Backscatter with Payload Transparency},
+    year = {2023},
+    isbn = {9798400701108},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3581791.3596835},
+    doi = {10.1145/3581791.3596835},
+    abstract = {Backscatter is an enabling technology for battery-free sensing in today's Artificial Intelligence of Things (AIOT). Building a backscatter-based sensing system, however, is a daunting task, due to two obstacles: the unaffordable power consumption of the microprocessor and the coexistence with the ambient carrier's traffic. In order to address the above issues, in this paper, we present Leggiero, the first-of-its-kind analog WiFi backscatter with payload transparency. Leveraging a specially designed circuit with a varactor diode, this design avoids using a microprocessor to interface between the radio and the sensor, and directly converts the analog sensor signal into the phase of RF (radio frequency) signal. By carefully designing the reference circuit on the tag and precisely locating the extra long training field (LTF) section of a WiFi packet, Leggiero embeds the analog phase value into the channel state information (CSI). A commodity WiFi receiver without hardware modification can simultaneously decode the WiFi and the sensor data. We implement Leggiero design and evaluate its performance under varied settings. The results show that the power consumption of the Leggiero tag (excluding the power of the peripheral sensor module) is 30μW at a sampling rate of 400Hz, which is 4.8\texttimes{} and 4\texttimes{} lower than the state-of-the-art WiFi backscatter schemes. The uplink throughput of Leggiero is suficient to support a variety of sensing applications, while keeping the WiFi carrier's throughput performance unaffected.},
+    booktitle = {Proceedings of the 21st Annual International Conference on Mobile Systems, Applications and Services},
+    pages = {436–449},
+    numpages = {14},
+    keywords = {RF computing, phase, analog, backscatter},
+    location = {Helsinki, Finland},
+    series = {MobiSys '23},
+    abbr = {MobiSys'23},
+    bibtex_show = {true},
+    selected = {true}
+}
+
+@article{10.1145/3482527,
+    author = {Zhang, Jia and Guo, Xiuzhen and Jiang, Haotian and Zheng, Xiaolong and He, Yuan},
+    title = {Link Quality Estimation of Cross-Technology Communication: The Case with Physical-Level Emulation},
+    year = {2021},
+    issue_date = {February 2022},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    volume = {18},
+    number = {1},
+    issn = {1550-4859},
+    url = {https://doi.org/10.1145/3482527},
+    doi = {10.1145/3482527},
+    abstract = {Research on cross-technology communication (CTC) has made rapid progress in recent years. While the CTC links are complex and dynamic, how to estimate the quality of a CTC link remains an open and challenging problem. Through our observation and study, we find that none of the existing approaches can be applied to estimate the link quality of CTC. Built upon the physical-level emulation, transmission over a CTC link is jointly affected by two factors: the emulation error and the channel distortion. Furthermore, the channel distortion can be modeled and observed through the signal strength and the noise strength. We, in this article, propose a new link metric called C-LQI and a joint link model that simultaneously takes into account the emulation error and the channel distortion in the In-phase and Quadrature (IQ) domain. We accurately describe the superimposed impact on the received signal. We further design a lightweight link estimation approach including two different methods to estimate C-LQI and in turn the packet reception rate (PRR) over the CTC link. We implement C-LQI and compare it with two representative link estimation approaches. The results demonstrate that C-LQI reduces the relative estimation error by 49.8\% and 51.5\% compared with s-PRR and EWMA, respectively.},
+    journal = {ACM Trans. Sen. Netw.},
+    month = oct,
+    articleno = {14},
+    numpages = {20},
+    keywords = {Cross-technology, link quality estimation},
+    abbr = {TOSN'21},
+    bibtex_show = {true},
+    selected = {true}
+}
+
+@article{10.1145/3676848,
+    author = {Guo, Miao and He, Shibo and Gu, Chaojie and Guo, Xiuzhen and Chen, Jiming and Gao, Tao and Wang, Tongtong},
+    title = {Towards Distributed Flow Scheduling in IEEE 802.1Qbv Time-Sensitive Networks},
+    year = {2024},
+    issue_date = {September 2024},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    volume = {20},
+    number = {5},
+    issn = {1550-4859},
+    url = {https://doi.org/10.1145/3676848},
+    doi = {10.1145/3676848},
+    abstract = {Flow scheduling plays a pivotal role in enabling Time-Sensitive Networking (TSN) applications. Current flow scheduling mainly adopts a centralized scheme, posing challenges in adapting to dynamic network conditions and scaling up for larger networks. To address these challenges, we first thoroughly analyze the flow scheduling problem and find the inherent locality nature of time scheduling tasks. Leveraging this insight, we introduce the first distributed framework for IEEE 802.1Qbv TSN flow scheduling. In this framework, we further propose a multi-agent flow scheduling method by designing Deep Reinforcement Learning (DRL)-based route and time agents for route and time planning tasks. The time agents are deployed on field devices to schedule flows in a distributed way. Evaluations in dynamic scenarios validate the effectiveness and scalability of our proposed method. It enhances the scheduling success rate by 20.31\% compared to state-of-the-art methods and achieves substantial cost savings, reducing transmission costs by 410\texttimes{} in large-scale networks. Additionally, we validate our approach on edge devices and a TSN testbed, highlighting its lightweight nature and ease of deployment.},
+    journal = {ACM Trans. Sen. Netw.},
+    month = jul,
+    articleno = {104},
+    numpages = {30},
+    keywords = {Time-sensitive networking, distributed scheduling, deep reinforcement learning},
+    abbr = {TOSN'24},
+    bibtex_show = {true},
+    selected = {true}
+}
+
+@inproceedings{10.1145/3560905.3568092,
+    author = {Qian, Xueteng and Guo, Xiuzhen and Yang, Yongjie and Fan, Xiaoran and Shangguan, Longfei},
+    title = {HeadFi II: Toward More Resilient Earable Computing Platform},
+    year = {2023},
+    isbn = {9781450398862},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3560905.3568092},
+    doi = {10.1145/3560905.3568092},
+    abstract = {Earables are embedded devices that can be placed in, on, or around the ear to sense human motions and physiological activities over an extended period of time. However, today's earable design principle heavily relies on dedicated sensors (e.g., accelerometer, gyroscope, proximity sensor), which inevitably adds cost, weight, and power consumption to earable devices, constituting a critical bottleneck in their wide adoption. Moreover, the tight coupling of sensors with onboard microcontrollers makes existing earables difficult to program, raising the barrier of entry to earable computing.In this poster, we describe HeadFi II, a stand-alone earable computing platform that integrates sensing and computing into a tiny hardware device with low power and computation footprint. We describe the design guideline and technical challenges as well as potential solutions. We believe this project would open up a new dimension of cutting-edge research and exciting educational opportunities. The developed solutions will lead to considerable advancements in both low-power hardware designs and efficient earable sensing algorithms, lowering the barrier of entry to earable computing by providing the research community with a versatile earable platform.},
+    booktitle = {Proceedings of the 20th ACM Conference on Embedded Networked Sensor Systems},
+    pages = {827–828},
+    numpages = {2},
+    location = {Boston, Massachusetts},
+    series = {SenSys '22},
+    abbr = {SenSys'22},
+    bibtex_show = {true},
+    selected = {true}
+}
+
+@inproceedings{10.1145/3397166.3409134,
+    author = {Zheng, Xiaolong and Xia, Dan and Guo, Xiuzhen and Liu, Liang and He, Yuan and Ma, Huadong},
+    title = {Portal: transparent cross-technology opportunistic forwarding for low-power wireless networks},
+    year = {2020},
+    isbn = {9781450380157},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3397166.3409134},
+    doi = {10.1145/3397166.3409134},
+    abstract = {Opportunistic forwarding seizes early forwarding opportunities in duty-cycled networks to reduce delay and energy consumption. But increasingly serious Cross-Technology Interference (CTI) significantly counteracts the benefits of opportunistic forwarding. Existing solutions try to reserve the channel for low-power networks by implicit avoidance or explicit coordination but ignore the potential of high-power CTI's superior capability. In this paper, we propose a new paradigm for low-power opportunistic forwarding in CTI environments. Instead of keeping high-power CTI devices silent, we directly involve them into the forwarding, as cross-technology forwarders. We design Portal to solve the challenges of realizing cross-technology opportunistic forwarding. To be transparent to the low-power networks, Portal adopts cross-technology rebroadcasting to enable the fast overhearing and forwarding of cross-technology data. To maximize the performance gain of using heterogeneous forwarders while minimizing the influence on legacy high-power traffic, we propose a post-forwarding forwarder selection and a traffic scheduling method. We also propose a feature-based ACK recognition method and a jamming-based ACK replying mechanism to forward the unreliable ACKs from asymmetric regions. Extensive experiments demonstrate that Portal not only avoids the CTI but also breaks through the existing performance limit.},
+    booktitle = {Proceedings of the Twenty-First International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing},
+    pages = {241–250},
+    numpages = {10},
+    keywords = {cross-technology communication, low-power, opportunistic forwarding, wireless networks},
+    location = {Virtual Event, USA},
+    series = {Mobihoc '20},
+    abbr = {Mobihoc'20},
+    bibtex_show = {true},
+    selected = {true}
+}
+
+@inproceedings{10.1145/3643832.3661890,
+    author = {Chen, Tao and Yang, Yongjie and Qiu, Chonghao and Fan, Xiaoran and Guo, Xiuzhen and Shangguan, Longfei},
+    title = {Enabling Hands-Free Voice Assistant Activation on Earphones},
+    year = {2024},
+    isbn = {9798400705816},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3643832.3661890},
+    doi = {10.1145/3643832.3661890},
+    abstract = {We present the design and implementation of EarVoice, a lightweight mobile service that enables hands-free voice assistant activation on commodity earphones. EarVoice comprises two design modules: one for joint speech detection and primary user identification that explores the attributes of the air channel and in-body audio pathway to differentiate between the primary user and others nearby; and another for accurate wakeup word enhancement, which employs a "copy, paste, and adapt" approach to reconstruct the missing high-frequency component in speech recordings. To minimize false positives, enhance agility, and preserve privacy, we deploy EarVoice on a dongle where the proposed signal processing algorithms are streamlined with a gating mechanism to permit only the primary user's speech to enter the pairing device (e.g., a smartphone) for wakeup word recognition, preventing unintended disclosure of ambient conversations. We implemented the dongle on a 4-layer PCB board and conducted extensive experiments with 23 participants in both controlled and uncontrolled scenarios. The experiment results show that EarVoice achieves around 90\% wakeup word recognition accuracy in stationary scenarios, which is on par with the high-end, multi-sensor fusion-based Airpods Pro earbud. EarVoice's performance drops to 84\% on mobile cases, slightly worse than Airpods (around 90\%).},
+    booktitle = {Proceedings of the 22nd Annual International Conference on Mobile Systems, Applications and Services},
+    pages = {155–168},
+    numpages = {14},
+    keywords = {voice activation, bone conduction, earable computing},
+    location = {Minato-ku, Tokyo, Japan},
+    series = {MOBISYS '24},
+    abbr = {MOBISYS'24},
+    bibtex_show = {true},
+    selected = {true}
+}
+
+@INPROCEEDINGS{9825921,
+    author={Yu, Zihao and Na, Xin and Boano, Carlo Alberto and He, Yuan and Guo, Xiuzhen and Li, Pengyu and Jin, Meng},
+    booktitle={2022 21st ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)}, 
+    title={SmarTiSCH: An Interference-Aware Engine for IEEE 802.15.4e-based Networks}, 
+    year={2022},
+    volume={},
+    number={},
+    pages={350-362},
+    abstract={Time-Slotted Channel Hopping (TSCH) is a popular link-layer pro-tocol defined in the IEEE 802.15.4e standard that improves the reli-ability and throughput of wireless sensor networks by exploiting diversity in both time and frequency. Despite the body of literature proposing several scheduling schemes for TSCH, a gap yet to be filled is the design of an effective way to deal with internal and external interference, which are both known to strongly affect communication performance. In fact, existing works either make use of a fixed schedule (and hence cannot cope with interference), or re-quire extra control traffic (and hence increase energy consumption). In this paper, we present SmarTiSCH, an interference-aware en-gine for IEEE 802.15.4e-based networks that retains the simplicity and energy-efficiency of autonomous scheduling, while increasing the awareness as well as robustness to both internal and external interference. With SmarTiSCH, the nodes in the network infer the presence of interference and react to it without the need of extra control traffic. Specifically, SmarTiSCH enables each node to infer the interference by passively observing existing data exchanges. It then lets a pair of nodes exchange information and mutually agree on a proper strategy to mitigate interference without the need of extra transmissions. We implement SmarTiSCH in Contiki-NG and evaluate its performance on a testbed of 20 off-the-shelf IEEE 802.15.4 devices based on the nRF52840. Our results show that SmarTiSCH increases the reliability of transmissions by up to 2.9 times compared to state-of-the-art approaches in the presence of interference, while even lowering the duty cycle by 54.3%.},
+    keywords={IEEE 802.15 Standard;Wireless communication;Wireless sensor networks;Time-frequency analysis;Schedules;Interference;Throughput;Autonomous scheduling;Efficiency;IEEE 802.15.4e;Orchestra;Low-power wireless communication;nRF52840;Performance evaluation;Reliability;RF Interference;Time-slotted channel hopping},
+    doi={10.1109/IPSN54338.2022.00035},
+    ISSN={},
+    month={May},,
+    abbr = {IPSN'22},
+    bibtex_show = {true},
+    selected = {true}
+}
+
+@misc{xu2024gestureprintenablinguseridentification,
+    title={GesturePrint: Enabling User Identification for mmWave-based Gesture Recognition Systems}, 
+    author={Lilin Xu and Keyi Wang and Chaojie Gu and Xiuzhen Guo and Shibo He and Jiming Chen},
+    year={2024},
+    eprint={2408.05358},
+    archivePrefix={arXiv},
+    primaryClass={eess.SP},
+    url={https://arxiv.org/abs/2408.05358},,
+    abbr = {ICDCS'24},
+    bibtex_show = {true},
+    selected = {true}
+}
+
+@inproceedings{10.1145/3625687.3625786,
+    author = {Sun, Yimiao and He, Yuan and Zhang, Jiacheng and Na, Xin and Chen, Yande and Wang, Weiguo and Guo, Xiuzhen},
+    title = {BIFROST: Reinventing WiFi Signals Based on Dispersion Effect for Accurate Indoor Localization},
+    year = {2024},
+    isbn = {9798400704147},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3625687.3625786},
+    doi = {10.1145/3625687.3625786},
+    abstract = {WiFi-based device localization is a key enabling technology for smart applications, which has attracted numerous research studies in the past decade. Most of the existing approaches rely on Line-of-Sight (LoS) signals to work, while a critical problem is often neglected: In the real-world indoor environments, WiFi signals are everywhere, but very few of them are usable for accurate localization. As a result, the localization accuracy in practice is far from being satisfactory. This paper presents Bifrost, a novel hardwaresoftware co-design for accurate indoor localization. The core idea of Bifrost is to reinvent WiFi signals, so as to provide sufficient LoS signals for localization. This is realized by exploiting the dispersion effect of signals emitted by the leaky wave antenna (LWA). We present a low-cost plug-in design of LWA that can generate orthogonal polarized signals: On one hand, LWA disperses signals of different frequencies to different angles, thus providing Angle-of-Arrival (AoA) information for the localized target. On the other hand, the target further leverages the antenna polarization mismatch to distinguish AoAs from different LWAs. In the software layer, fine-grained information in Channel State Information (CSI) is exploited to cope with multipath and noise. We implement Bifrost and evaluate its performance under various settings. The results show that the median localization error of Bifrost is 0.81m, which is 52.35\% less than that of SpotFi, a state-of-the-art approach. SpotFi, when combined with Bifrost to work in the realistic settings, can reduce the localization error by 33.54\%.},
+    booktitle = {Proceedings of the 21st ACM Conference on Embedded Networked Sensor Systems},
+    pages = {376–389},
+    numpages = {14},
+    keywords = {wifi localization, indoor localization, leaky wave antenna, RF computing},
+    location = {Istanbul, Turkiye},
+    series = {SenSys '23},
+    abbr = {SenSys'23},
+    bibtex_show = {true},
+    selected = {true}
 }
