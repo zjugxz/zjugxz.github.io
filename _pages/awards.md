@@ -1,12 +1,13 @@
 ---
 layout: page
 permalink: /awards/
-title: Awards & Honors
+title: Awards
 nav: true
 nav_order: 5
 ---
 
 - “Research on Heterogeneous Connection for Internet of Things”, ACM China Doctoral Dissertation Award (ACM 中国优秀博士论文奖), 2021
+
 - “The Theory and Methods of Coexistence and Integration of Heterogeneous Wireless Networks”, CCF Science and Technology Progress Award (Second Prize in Natural Science) (异构无线网络共存与融合理论和方法，CCF科技成果奖自然科学二等奖) , 2023
 - “Research on Heterogeneous Connection for Internet of Things”, ACM SIGCOMM China Doctoral Dissertation Award, (ACM SIGCOMM 优秀博士论文奖), 2021
 - Shuimu Tsinghua Scholar (清华大学水木学者)，2021

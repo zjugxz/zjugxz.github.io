@@ -3,7 +3,7 @@ layout: page
 permalink: /funding/
 title: Funding
 nav: true
-nav_order: 8
+nav_order: 7
 ---
 
 - The National Natural Science Foundation of China (NSFC) General Program （主持，国家自然科学基金面上基金项目）
