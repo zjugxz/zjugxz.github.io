@@ -26,6 +26,9 @@ nav_order: 8
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="" title="" class="img-fluid z-depth-1" style='height: 80%' %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="" title="" class="img-fluid z-depth-1" style='height: 80%' %}
+    </div>
 </div>
 
 <div>
@@ -34,25 +37,23 @@ nav_order: 8
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/People_photo/Zhou_Yang_Master .jpg" title="Zhou Yang" class="img-fluid rounded-circle" %}
+        {% include figure.liquid loading="eager" path="assets/img/People_photo/Zhou_Yang_Master .jpg" title="Zhou Yang" class="img-fluid z-depth-1" style='height: 80%' %}
         <div class='caption'>Zhou Yang<br>Master student</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/People_photo/Xu_Chen_Master.jpg" title="Xu Chen" class="img-fluid rounded-circle" %}
+        {% include figure.liquid loading="eager" path="assets/img/People_photo/Xu_Chen_Master.jpg" title="Xu Chen" class="img-fluid z-depth-1" style='height: 80%' %}
         <div class='caption'>Xu Chen<br>Master student</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/People_photo/Zekang_Yang_Master.jpg" title="Zekang Yang" class="img-fluid rounded-circle" %}
+        {% include figure.liquid loading="eager" path="assets/img/People_photo/Zekang_Yang_Master.jpg" title="Zekang Yang" class="img-fluid z-depth-1" style='height: 80%' %}
         <div class='caption'>Zekang Yang<br>Master student</div>
     </div>
-</div>
-<div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/People_photo/Kaixuan_Xie.jpg" title="Kaixuan Xie" class="img-fluid rounded-circle" %}
+        {% include figure.liquid loading="eager" path="assets/img/People_photo/Kaixuan_Xie.jpg" title="Kaixuan Xie" class="img-fluid z-depth-1" style='height: 80%' %}
         <div class='caption'>Kaixuan Xie<br>Master student</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/People_photo/Chuchuan_Ceng_Master.jpg" title="Chuchuan Ceng" class="img-fluid rounded-circle" %}
+        {% include figure.liquid loading="eager" path="assets/img/People_photo/Chuchuan_Ceng_Master.jpg" title="Chuchuan Ceng" class="img-fluid z-depth-1" style='height: 80%' %}
         <div class='caption'>Chuchuan Ceng<br>Master student</div>
     </div>
 </div>
