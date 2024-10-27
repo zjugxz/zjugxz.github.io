@@ -13,6 +13,10 @@ nav_order: 8
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
+        <img src="assets/img/People_photo/Long_Tan_PhD.jpg" alt="Long_Tan" class="img-fluid rounded-circle" style="border: 2px solid #fff; box-shadow: 0 0 0 2px #000;">
+        <div class='caption'>Long Tan<br>PhD student</div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/People_photo/Long_Tan_PhD.jpg" title="Long_Tan" class="img-fluid rounded-circle" %}
         <div class='caption'>Long Tan<br>PhD student</div>
     </div>
