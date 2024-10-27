@@ -16,10 +16,6 @@ nav_order: 8
         {% include figure.liquid loading="eager" path="assets/img/People_photo/Long_Tan_PhD.jpg" title="Long_Tan" class="img-fluid rounded-circle" width="100" height="100" %}
         <div class='caption'>Long Tan<br>PhD student</div>
     </div>
-    <!-- <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/People_photo/Long_Tan_PhD.jpg" title="Long_Tan" class="img-fluid rounded-circle" %}
-        <div class='caption'>Long Tan<br>PhD student</div>
-    </div> -->
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/People_photo/Yifan_Yan_PhD.jpg" title="Yifan_Yan" class="img-fluid rounded-circle" %}
         <div class='caption'>Yifan Yan<br>PhD student</div>
