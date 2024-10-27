@@ -62,14 +62,5 @@ nav_order: 8
   <h3 style='text-align: right; color: gray;'>Undergraduate</h3>
 </div>
 <hr>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <div class='caption'>Haobo Zhang</div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <div class='caption'>Xiangguang Wang</div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <div class='caption'>Xiangchao Huang</div>
-    </div>
-</div>
+张皓博、王向光、黄祥钞、朱耀斌、汤坤逸、马钰菲、李建鹏
+
