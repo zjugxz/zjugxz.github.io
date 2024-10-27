@@ -17,7 +17,7 @@ nav_order: 8
         <div class='caption'>Long Tan<br>PhD student</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/People_photo/Yifan_Yan_PhD.jpg" title="Yifan_Yan" class="img-fluid rounded-circle" %}
+        {% include figure.liquid loading="eager" path="assets/img/People_photo/Yifan_Yan_PhD.jpg" title="Yifan_Yan" class="img-fluid z-depth-1" style='height: 80%' %}
         <div class='caption'>Yifan Yan<br>PhD student</div>
     </div>
 </div>
