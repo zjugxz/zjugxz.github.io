@@ -4,7 +4,7 @@ permalink: /people/
 title: People
 description: members of the lab or group
 nav: true
-nav_order: 9
+nav_order: 8
 ---
 
 <div>
@@ -12,6 +12,10 @@ nav_order: 9
 </div>
 <hr>
 <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/People_photo/Long_Tan_PhD.jpg" title="Long_Tan" class="img-fluid rounded-circle" %}
+        <div class='caption'>Long Tan<br>PhD student</div>
+    </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/People_photo/Long_Tan_PhD.jpg" title="Long Tan" class="img-fluid rounded z-depth-1" style='height: 100%' %}
         <div class = 'caption'>Long Tan<br>PhD student</div>
