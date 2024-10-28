@@ -45,7 +45,7 @@ nav_order: 8
         <div class='caption'>Xu Chen<br>Master student</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/People_photo/Zeyang_Yang_Master.jpg" title="Zekang Yang" class="img-fluid z-depth-1" style='height: 80%' %}
+        {% include figure.liquid loading="eager" path="assets/img/People_photo/Zeyang_Yang_Master.jpg" title="Zeyang Yang" class="img-fluid z-depth-1" style='height: 80%' %}
         <div class='caption'>Zeyang Yang<br>Master student</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -62,6 +62,6 @@ nav_order: 8
   <h3 style='text-align: right; color: gray;'>Undergraduate</h3>
 </div>
 <hr>
-<br><br>
+<br>
 张皓博、王向光、黄祥钞、朱耀斌、汤坤逸、马钰菲、李建鹏
 
