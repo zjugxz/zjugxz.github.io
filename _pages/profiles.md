@@ -53,8 +53,8 @@ nav_order: 8
         <div class='caption'>Kaixuan Xie<br>Master student</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/People_photo/Chuchuan_Ceng_Master.jpg" title="Chuchuan Ceng" class="img-fluid z-depth-1" style='height: 80%' %}
-        <div class='caption'>Chuchuan Ceng<br>Master student</div>
+        {% include figure.liquid loading="eager" path="assets/img/People_photo/Chuchuan_Ceng_Master.jpg" title="Chuchuan Cen" class="img-fluid z-depth-1" style='height: 80%' %}
+        <div class='caption'>Chuchuan Cen<br>Master student</div>
     </div>
 </div>
 
