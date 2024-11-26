@@ -7,23 +7,52 @@
 "NSDI 22":
   color: "#00FF00"  # 绿色
 
-"MOBISYS’24": color: "#FF0000"  # 红色
-"MobiSys’23": color: "#FF0000"  # 红色
+"MOBISYS’24": 
+  color: "#FF0000"  # 红色
+"MobiSys’23": 
+  color: "#FF0000"  # 红色
   
 
-"SenSys’23", "SenSys’22", "SenSys’21", "SenSys’20":
+"SenSys’23":
+  color: "#FFA500"  # 橙色
+"SenSys’22":
+  color: "#FFA500"  # 橙色
+"SenSys’21":
+  color: "#FFA500"  # 橙色
+"SenSys’20":
   color: "#FFA500"  # 橙色
 
-"IPSN’22", "IPSN’19":
+
+"IPSN’22":
+  color: "#00FFFF"  # 青色
+"IPSN’19":
   color: "#00FFFF"  # 青色
 
-"TON’24", "TON’23", "TON’22", "TON’21", "TON’20":
+
+"TON’24":
+  color: "#FF00FF"  # 紫色
+"TON’23":
+  color: "#FF00FF"  # 紫色
+"TON’22":
+  color: "#FF00FF"  # 紫色
+"TON’21":
+  color: "#FF00FF"  # 紫色
+"TON’20":
   color: "#FF00FF"  # 紫色
 
 "TMC’24":
   color: "#008000"  # 深绿色
 
-"INFOCOM’24", "INFOCOM’20", "INFOCOM’19", "INFOCOM’18", "INFOCOM’17":
+
+"INFOCOM’24":
+  color: "#800080"  # 紫色
+"INFOCOM’20":
+  color: "#800080"  # 紫色
+"INFOCOM’19":
+  color: "#800080"  # 紫色
+"INFOCOM’18":
+  color: "#800080"  # 紫色
+"INFOCOM’17":
   color: "#800080"  # 紫色
 
 "UbiComp’22":
@@ -35,13 +64,19 @@
 "ICNP’24": 
   color: "#FFC0CB"  # 粉色
 
-"ICDCS’24", "ICDCS’21":
+"ICDCS’24":
+  color: "#FF69B4"  # 玫红色
+"ICDCS’21":
   color: "#FF69B4"  # 玫红色
 
-"SECON’21", "SECON’19":
+"SECON’21":
+  color: "#008080"  # 深绿色
+"SECON’19":
   color: "#008080"  # 深绿色
 
-"TOSN’24", "TOSN’21":
+"TOSN’24":
+  color: "#FFDAB9"  # 米色
+"TOSN’21":
   color: "#FFDAB9"  # 米色
 
 "MobiHoc’20":
@@ -50,7 +85,9 @@
 "CSUR’22":
   color: "#D2691E"  # 暗橙色
 
-"COMST’24", "COMST’23":
+"COMST’24":
+  color: "#A52A2A"  # 暗红色
+"COMST’23":
   color: "#A52A2A"  # 暗红色
 
 "EWSN’18":
@@ -62,7 +99,9 @@
 "CWSN 2021":
   color: "#FF00FF"  # 紫色 
 
-"IOTJ’23", "IOTJ’21":
+"IOTJ’23":
+  color: "#FF0000"  # 红色
+"IOTJ’21":
   color: "#FF0000"  # 红色
 
 "GetMobile’23":
