@@ -7,8 +7,9 @@
 "NSDI 22":
   color: "#00FF00"  # 绿色
 
-"MOBISYS’24", "MobiSys’23":
-  color: "#FF0000"  # 红色
+"MOBISYS’24": color: "#FF0000"  # 红色
+"MobiSys’23": color: "#FF0000"  # 红色
+  
 
 "SenSys’23", "SenSys’22", "SenSys’21", "SenSys’20":
   color: "#FFA500"  # 橙色
