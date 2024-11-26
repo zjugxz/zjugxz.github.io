@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I was invited to serve on the TPC of <strong>ACM SenSys 2025</strong>!
+I was invited to serve on the TPC of <strong>ACM SenSys 2025 ! </strong>
