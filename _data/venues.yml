@@ -5,104 +5,109 @@
   color: "#0000FF"
 
 "NSDI 22":
-  color: "#00FF00"  # 绿色
+  color: "#0780cf"  # 蓝色
 
 "MOBISYS’24": 
-  color: "#FF0000"  # 红色
+  color: "#765005"  # 棕色
 "MobiSys’23": 
-  color: "#FF0000"  # 红色
+  color: "#765005"  # 棕色
   
 
 "SenSys’23":
-  color: "#FFA500"  # 橙色
+  color: "#fa6d1d"  # 橙色
 "SenSys’22":
-  color: "#FFA500"  # 橙色
+  color: "#fa6d1d"  # 橙色
 "SenSys’21":
-  color: "#FFA500"  # 橙色
+  color: "#fa6d1d"  # 橙色
 "SenSys’20":
-  color: "#FFA500"  # 橙色
+  color: "#fa6d1d"  # 橙色
 
 
 "IPSN’22":
-  color: "#00FFFF"  # 青色
+  color: "#0e2c82"  # 蓝色
 "IPSN’19":
-  color: "#00FFFF"  # 青色
+  color: "#0e2c82"  # 蓝色
 
 
 "TON’24":
-  color: "#FF00FF"  # 紫色
+  color: "#b6b51f"  # 黄绿色
 "TON’23":
-  color: "#FF00FF"  # 紫色
+  color: "#b6b51f"  # 黄绿色
 "TON’22":
-  color: "#FF00FF"  # 紫色
+  color: "#b6b51f"  # 黄绿色
 "TON’21":
-  color: "#FF00FF"  # 紫色
+  color: "#b6b51f"  # 黄绿色
 "TON’20":
-  color: "#FF00FF"  # 紫色
+  color: "#b6b51f"  # 黄绿色
+
 
 "TMC’24":
-  color: "#008000"  # 深绿色
+  color: "#da1f18"  # 红色
 
 
 "INFOCOM’24":
-  color: "#800080"  # 紫色
+  color: "#701866"  # 紫色
 "INFOCOM’20":
-  color: "#800080"  # 紫色
+  color: "#701866"  # 紫色
 "INFOCOM’19":
-  color: "#800080"  # 紫色
+  color: "#701866"  # 紫色
 "INFOCOM’18":
-  color: "#800080"  # 紫色
+  color: "#701866"  # 紫色
 "INFOCOM’17":
-  color: "#800080"  # 紫色
+  color: "#701866"  # 紫色
+
 
 "UbiComp’22":
-  color: "#FF4500"  # 橙红色
+  color: "#f47a75"  # 红色
+
 
 "CHI’24":
-  color: "#FFD700"  # 金色
+  color: "#009db2"  # 蓝绿色
+
 
 "ICNP’24": 
-  color: "#FFC0CB"  # 粉色
+  color: "#024b51"  # 深蓝色
 
 "ICDCS’24":
-  color: "#FF69B4"  # 玫红色
+  color: "#0780cf"  # 蓝色
 "ICDCS’21":
-  color: "#FF69B4"  # 玫红色
+  color: "#0780cf"  # 蓝色
+
 
 "SECON’21":
-  color: "#008080"  # 深绿色
+  color: "#765005"  # 棕色
 "SECON’19":
-  color: "#008080"  # 深绿色
+  color: "#765005"  # 棕色
 
 "TOSN’24":
-  color: "#FFDAB9"  # 米色
+  color: "#3b6291"  # 蓝灰色
 "TOSN’21":
-  color: "#FFDAB9"  # 米色
+  color: "#3b6291"  # 蓝灰色
 
 "MobiHoc’20":
   color: "#B0C4DE"  # 浅灰色
 
 "CSUR’22":
-  color: "#D2691E"  # 暗橙色
+  color: "#943c39"  # 暗橙色
 
 "COMST’24":
-  color: "#A52A2A"  # 暗红色
+  color: "#779043"  # 深绿色
 "COMST’23":
-  color: "#A52A2A"  # 暗红色
+  color: "#779043"  # 深绿色
 
 "EWSN’18":
-  color: "#00FFFF"  # 青色
+  color: "#388498"  # 蓝绿色
 
 "MSN’16":
-  color: "#FFA500"  # 橙色
+  color: "#bf7334"  # 棕橙色
 
 "CWSN 2021":
-  color: "#FF00FF"  # 紫色 
+  color: "#3f6899"  # 蓝灰色 
 
 "IOTJ’23":
-  color: "#FF0000"  # 红色
+  color: "#bd6b08"  # 红色
 "IOTJ’21":
-  color: "#FF0000"  # 红色
+  color: "#bd6b08"  # 红色
 
 "GetMobile’23":
-  color: "#00FF00"  # 绿色
+  color: "#c97937"  # 橙色
