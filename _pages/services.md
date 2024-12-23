@@ -7,9 +7,10 @@ nav_order: 6
 ---
 
 - Editorship
-    - Tsinghua Science and Technology
+    - Associate Editor, Tsinghua Science and Technology
     - Guest Editor, Special Issue “Next-Generation Industrial Wireless Communication”, Electronics
 - Conference Chairs
+    - Publicity Chair - ACM/IEEE SEC 2025
     - TPC Co-chair -  RFCom 2024 (Workshop in conjunction with ACM SenSys 2024)
     - Poster and Demo Co-chair - ACM SenSys 2024
     - Submission Chair -  IEEE SECON 2022
@@ -18,7 +19,7 @@ nav_order: 6
     - Registration Chair – IEEE AIoTSys 2024
 - TPC
     - ACM MobiSys 2025
-    - ACM SenSys 2024
+    - ACM SenSys 2024/2025
     - IEEE ICDCS 2024/2025
     - IEEE SECON 2023/2024
     - IEEE ICPADS 2022/2023/2024
