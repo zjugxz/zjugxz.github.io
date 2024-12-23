@@ -6,11 +6,11 @@ nav: true
 nav_order: 5
 ---
 
-- Tao Chen, Yongjie Yang, Xiaoran Fan, Xiuzhen Guo, Jie Xiong, Longfei Shanggguan, “Exploring the Feasibility of Remote Cardiac Auscultation Using Earphones”, ACM MobiCom 2024. (<i style="color:blue">CCF-A</i>, <i style="color:red;">Best Paper Award</i>)
+- Tao Chen, Yongjie Yang, Xiaoran Fan, <u>**Xiuzhen Guo**</u>, Jie Xiong, Longfei Shanggguan, “Exploring the Feasibility of Remote Cardiac Auscultation Using Earphones”, ACM MobiCom 2024. (<i style="color:blue">CCF-A</i>, <i style="color:red;">Best Paper Award</i>)
 
-- Haoran Shi, Yichuan Yang, Xiuzhen Guo, Wenchao Meng, Chaoiie Gu and Shibo He, “Understanding and Optimizing Nonlinear Chirp Spread Spectrum Modulation in LoRa Networks”, IEEE HPCC, 2024. (CCF-C, <i style="color:red;">Best Paper Award</i>)
+- Haoran Shi, Yichuan Yang, <u>**Xiuzhen Guo**</u>, Wenchao Meng, Chaoiie Gu and Shibo He, “Understanding and Optimizing Nonlinear Chirp Spread Spectrum Modulation in LoRa Networks”, IEEE HPCC, 2024. (CCF-C, <i style="color:red;">Best Paper Award</i>)
 
-- Huajian Zhou, Miao Guo, Xiuzhen Guo, Shibo He, Chaojie Gu, Jiming Chen, “Hybrid heuristic optimization for joint routing and scheduling in time-sensitive networking”, IEEE MSN, 2024. (CCF-C, <i style="color:red;">Best Paper Award</i>)
+- Huajian Zhou, Miao Guo, <u>**Xiuzhen Guo**</u>, Shibo He, Chaojie Gu, Jiming Chen, “Hybrid heuristic optimization for joint routing and scheduling in time-sensitive networking”, IEEE MSN, 2024. (CCF-C, <i style="color:red;">Best Paper Award</i>)
 
 - “Research on Heterogeneous Connection for Internet of Things”, ACM China Doctoral Dissertation Award (ACM 中国优秀博士论文奖), 2021
 
