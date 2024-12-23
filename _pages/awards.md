@@ -6,6 +6,12 @@ nav: true
 nav_order: 5
 ---
 
+- Tao Chen, Yongjie Yang, Xiaoran Fan, Xiuzhen Guo, Jie Xiong, Longfei Shanggguan, “Exploring the Feasibility of Remote Cardiac Auscultation Using Earphones”, ACM MobiCom 2024. (CCF-A, <i style="color:red;">Best Paper Award</i>)
+
+- Haoran Shi, Yichuan Yang, Xiuzhen Guo, Wenchao Meng, Chaoiie Gu and Shibo He, “Understanding and Optimizing Nonlinear Chirp Spread Spectrum Modulation in LoRa Networks”, IEEE HPCC, 2024. (CCF-C, <i style="color:red;">Best Paper Award</i>)
+
+- Huajian Zhou, Miao Guo, Xiuzhen Guo, Shibo He, Chaojie Gu, Jiming Chen, “Hybrid heuristic optimization for joint routing and scheduling in time-sensitive networking”, IEEE MSN, 2024. (CCF-C, <i style="color:red;">Best Paper Award</i>)
+
 - “Research on Heterogeneous Connection for Internet of Things”, ACM China Doctoral Dissertation Award (ACM 中国优秀博士论文奖), 2021
 
 - “The Theory and Methods of Coexistence and Integration of Heterogeneous Wireless Networks”, CCF Science and Technology Progress Award (Second Prize in Natural Science) (异构无线网络共存与融合理论和方法，CCF科技成果奖自然科学二等奖) , 2023
