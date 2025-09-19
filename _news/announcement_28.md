@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work on low-power IoT won Top Ten Technological Advancements in <strong>the Internet of Things</strong> (电子学会物联网十大进展)
+Our work on low-power IoT won <strong>Top Ten Technological Advancements in the Internet of Things (电子学会物联网十大进展)</strong>
