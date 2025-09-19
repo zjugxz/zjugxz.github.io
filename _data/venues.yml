@@ -4,6 +4,9 @@
 "book":
   color: "#0000FF"
 
+"TNSE’25":
+  color: "#b6b51f"  # 黄绿色
+
 "NSDI 22":
   color: "#0780cf"  # 蓝色
 
@@ -42,6 +45,8 @@
 
 
 "TMC’24":
+  color: "#da1f18"  # 红色
+"TMC’25":
   color: "#da1f18"  # 红色
 
 
@@ -86,6 +91,8 @@
 
 "MobiHoc’20":
   color: "#B0C4DE"  # 浅灰色
+"MobiHoc’25":
+  color: "#B0C4DE"  # 浅灰色
 
 "CSUR’22":
   color: "#943c39"  # 暗橙色
@@ -93,6 +100,8 @@
 "COMST’24":
   color: "#779043"  # 深绿色
 "COMST’23":
+  color: "#779043"  # 深绿色
+"COMST’25":
   color: "#779043"  # 深绿色
 
 "EWSN’18":
