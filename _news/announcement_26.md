@@ -5,8 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<<<<<<< HEAD
 Our work on mmwave sensing won <strong>best paper</strong> at <strong>CCF CWSN 2025 !</strong>
-=======
-Our work on mmwave sensing won <strong>best paper</strong> at <strong>CCF CWSN 2025 !</strong>
->>>>>>> 95ff743c08a076529cbf1da9d58f2874eea5d299

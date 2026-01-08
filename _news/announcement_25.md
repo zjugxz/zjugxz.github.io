@@ -5,9 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<<<<<<< HEAD
 Our work on Radio Frequency (RF) computing was accepted by <strong>JCST</strong> as the <strong>cover paper !</strong>
-=======
-
-Our work on Radio Frequency (RF) computing was accepted by <strong>JCST</strong> as the <strong>cover paper !</strong>
->>>>>>> 95ff743c08a076529cbf1da9d58f2874eea5d299
