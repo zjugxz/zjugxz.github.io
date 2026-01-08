@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /cn/
-subtitle: <a href='http://www.cse.zju.edu.cn/'>College of Control Science and Engineering</a>, <a href='https://www.zju.edu.cn/'> Zhejiang University</a>
+subtitle: <a href='https://www.zju.edu.cn/'>浙江大学</a>, <a href='http://www.cse.zju.edu.cn/'>控制科学与工程学院</a> 
 
 profile:
   align: right
