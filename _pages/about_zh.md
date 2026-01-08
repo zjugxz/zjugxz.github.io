@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-permalink: /cn/
+permalink: /zh/
 subtitle: <a href='https://www.zju.edu.cn/'>浙江大学</a>, <a href='http://www.cse.zju.edu.cn/'>控制科学与工程学院</a> 
 
 profile:
