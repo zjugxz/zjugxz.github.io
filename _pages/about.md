@@ -1,5 +1,6 @@
 ---
 layout: about
+lang: en
 title: About
 permalink: /
 subtitle: <a href='http://www.cse.zju.edu.cn/'>College of Control Science and Engineering</a>, <a href='https://www.zju.edu.cn/'> Zhejiang University</a>
