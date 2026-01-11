@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: en
 permalink: /publications/
 title: Publications
 nav: true

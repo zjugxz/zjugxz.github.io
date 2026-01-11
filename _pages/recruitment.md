@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: en
 permalink: /recruitment/
 title: Notes for Prospective Students
 # <!-- description: Materials for courses you taught. Replace this text with your description. -->

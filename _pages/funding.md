@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: en
 permalink: /funding/
 title: Funding
 nav: true

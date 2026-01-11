@@ -1,6 +1,6 @@
 ---
 layout: page
-lang: en
+lang: zh
 permalink: /people/
 title: People
 description: members of the lab or group

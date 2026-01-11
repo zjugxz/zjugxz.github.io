@@ -1,9 +1,16 @@
 <header>
   <!-- Nav Bar -->
+  {% comment %} 获取当前页面的语言，默认为 'en' {% endcomment %}
+  {% assign current_lang = page.lang | default: 'en' %}
+  {% assign home_url = '/' %}
+  {% if current_lang == 'zh' %}
+    {% assign home_url = '/zh/' %}
+  {% endif %}
+  
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+      {% if page.permalink != '/' and page.permalink != '/zh/' %}
+        <a class="navbar-brand title font-weight-lighter" href="{{ home_url | relative_url }}">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
               <span class="font-weight-bold">
@@ -42,15 +49,32 @@
 
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-          {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
-          {% endfor %}
+          {% comment %} 根据语言查找对应的 About 页面 {% endcomment %}
+          {% assign about_url = '/' %}
+          {% assign about_title = 'About' %}
+          {% if current_lang == 'zh' %}
+            {% for p in site.pages %}
+              {% if p.permalink == '/zh/' and p.lang == 'zh' %}
+                {% assign about_url = '/zh/' %}
+                {% assign about_title = p.title %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+          {% else %}
+            {% for p in site.pages %}
+              {% if p.permalink == '/' and p.lang != 'zh' %}
+                {% assign about_url = '/' %}
+                {% assign about_title = p.title %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
 
           <!-- About -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
+          <li class="nav-item {% if page.permalink == about_url %}active{% endif %}">
+            <a class="nav-link" href="{{ about_url | relative_url }}">
               {{- about_title }}
-              {% if page.permalink == '/' %}
+              {% if page.permalink == about_url %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
@@ -60,60 +84,104 @@
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
             {% if p.nav and p.autogen == null %}
-              {% if p.dropdown %}
-                {% assign has_active_child = false %}
-                {% for child in p.children %}
-                  {% if page.title == child.title %}
-                    {% assign has_active_child = true %}
-                  {% endif %}
-                {% endfor %}
-                <li class="nav-item dropdown {% if page.title == p.title or has_active_child %}active{% endif %}">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    {{- p.title }}
-                    {% if page.title == p.title or has_active_child %}
-                      <span class="sr-only">(current)</span>
+              {% comment %} 获取页面的语言，如果没有设置则默认为 'en' {% endcomment %}
+              {% assign p_lang = p.lang | default: 'en' %}
+              {% comment %} 只显示与当前语言匹配的页面 {% endcomment %}
+              {% if p_lang == current_lang %}
+                {% if p.dropdown %}
+                  {% assign has_active_child = false %}
+                  {% for child in p.children %}
+                    {% if page.title == child.title %}
+                      {% assign has_active_child = true %}
                     {% endif %}
-                  </a>
-                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                    {% for child in p.children %}
-                      {% if child.title == 'divider' %}
-                        <div class="dropdown-divider"></div>
-                      {% else %}
-                        <a class="dropdown-item {% if page.title == child.title %}active{% endif %}" href="{{ child.permalink | relative_url }}">
-                          {{- child.title -}}
-                        </a>
+                  {% endfor %}
+                  <li class="nav-item dropdown {% if page.title == p.title or has_active_child %}active{% endif %}">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      {{- p.title }}
+                      {% if page.title == p.title or has_active_child %}
+                        <span class="sr-only">(current)</span>
                       {% endif %}
-                    {% endfor %}
-                  </div>
-                </li>
-              {% else %}
-                <li class="nav-item {% if page.url contains p.permalink %}active{% endif %}">
-                  {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
-                  <a class="nav-link" href="{{ url | relative_url }}">
-                    {{- p.title }}
-                    {% if page.url contains p.url %}
-                      <span class="sr-only">(current)</span>
-                    {% endif %}
-                  </a>
-                </li>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                      {% for child in p.children %}
+                        {% if child.title == 'divider' %}
+                          <div class="dropdown-divider"></div>
+                        {% else %}
+                          <a class="dropdown-item {% if page.title == child.title %}active{% endif %}" href="{{ child.permalink | relative_url }}">
+                            {{- child.title -}}
+                          </a>
+                        {% endif %}
+                      {% endfor %}
+                    </div>
+                  </li>
+                {% else %}
+                  <li class="nav-item {% if page.url == p.url or page.url contains p.permalink %}active{% endif %}">
+                    {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
+                    <a class="nav-link" href="{{ url | relative_url }}">
+                      {{- p.title }}
+                      {% if page.url == p.url or page.url contains p.permalink %}
+                        <span class="sr-only">(current)</span>
+                      {% endif %}
+                    </a>
+                  </li>
+                {% endif %}
               {% endif %}
             {% endif %}
           {% endfor %}
 
           <!-- Language Switcher -->
           <li class="nav-item">
-            {% if page.permalink == '/zh/' %}
-              <a class="nav-link" href="{{ '/' | relative_url }}" title="Switch to English">EN</a>
+            {% if current_lang == 'zh' %}
+              {% comment %} 当前是中文，切换到英文：查找对应的英文页面 {% endcomment %}
+              {% assign switch_url = '/' %}
+              {% if page.permalink == '/zh/' %}
+                {% assign switch_url = '/' %}
+              {% else %}
+                {% comment %} 尝试根据 permalink 查找对应的英文页面 {% endcomment %}
+                {% assign en_permalink = page.permalink | remove: '/zh' %}
+                {% if en_permalink == '' %}
+                  {% assign en_permalink = '/' %}
+                {% endif %}
+                {% for p in site.pages %}
+                  {% if p.permalink == en_permalink and p.lang != 'zh' %}
+                    {% assign switch_url = p.url %}
+                    {% break %}
+                  {% endif %}
+                {% endfor %}
+                {% if switch_url == '/' and page.permalink != '/zh/' %}
+                  {% comment %} 如果没找到对应的英文页面，默认回到英文首页 {% endcomment %}
+                  {% assign switch_url = '/' %}
+                {% endif %}
+              {% endif %}
+              <a class="nav-link" href="{{ switch_url | relative_url }}" title="Switch to English">EN</a>
             {% else %}
-              <a class="nav-link" href="{{ '/zh/' | relative_url }}" title="切换为中文">中</a>
+              {% comment %} 当前是英文，切换到中文：查找对应的中文页面 {% endcomment %}
+              {% assign switch_url = '/zh/' %}
+              {% if page.permalink == '/' %}
+                {% assign switch_url = '/zh/' %}
+              {% else %}
+                {% comment %} 尝试根据 permalink 查找对应的中文页面 {% endcomment %}
+                {% assign zh_permalink = '/zh' | append: page.permalink %}
+                {% for p in site.pages %}
+                  {% if p.permalink == zh_permalink and p.lang == 'zh' %}
+                    {% assign switch_url = p.url %}
+                    {% break %}
+                  {% endif %}
+                {% endfor %}
+                {% if switch_url == '/zh/' and page.permalink != '/' %}
+                  {% comment %} 如果没找到对应的中文页面，默认回到中文首页 {% endcomment %}
+                  {% assign switch_url = '/zh/' %}
+                {% endif %}
+              {% endif %}
+              <a class="nav-link" href="{{ switch_url | relative_url }}" title="切换为中文">中</a>
             {% endif %}
           </li>
 

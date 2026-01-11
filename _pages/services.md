@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: en
 permalink: /services/
 title: Services
 nav: true
