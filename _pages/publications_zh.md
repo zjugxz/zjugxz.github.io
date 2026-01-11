@@ -2,7 +2,7 @@
 layout: page
 lang: zh
 permalink: /zh/publications/
-title: Publications
+title: 发表文章
 nav: true
 nav_order: 3
 ---

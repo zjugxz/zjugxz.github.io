@@ -2,7 +2,7 @@
 layout: page
 lang: zh
 permalink: /zh/funding/
-title: Funding
+title: 基金
 nav: true
 nav_order: 7
 ---

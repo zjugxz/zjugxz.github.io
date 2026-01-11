@@ -2,7 +2,7 @@
 layout: page
 lang: zh
 permalink: /zh/awards/
-title: Awards
+title: 荣誉
 nav: true
 nav_order: 5
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 lang: zh
-title: News
+title: 新闻
 permalink: /zh/news/
 nav: true
 nav_order: 2
