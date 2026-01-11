@@ -1,7 +1,7 @@
 ---
 layout: page
 lang: en
-permalink: /people/
+permalink: /zh/people/
 title: People
 description: members of the lab or group
 nav: true
