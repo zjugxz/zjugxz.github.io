@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: en
 title: Aloba
 description: Rethinking ON-OFF Keying Modulation for Ambient LoRa Backscatter
 img: assets/img/aloba_figure.jpg

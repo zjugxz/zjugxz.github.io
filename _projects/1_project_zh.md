@@ -1,8 +1,8 @@
 ---
 layout: page
-lang: en
+lang: zh
 title: RF-Transformer
-description: A Unified Backscatter Radio Hardware Abstraction
+description: 统一的反向散射无线电硬件
 img: assets/img/transformer_figure.png
 importance: 1
 category: work

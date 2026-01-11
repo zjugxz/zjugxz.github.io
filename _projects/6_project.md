@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: en
 title: WIDE
 description: Physical-level CTC via Digital Emulation.
 img: assets/img/wide_figure.jpg

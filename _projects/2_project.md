@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: en
 title: Saiyan
 description: Design and Implementation of a Low-power Demodulator for LoRa Backscatter Systems.
 img: assets/img/saiyan_figure (1).png

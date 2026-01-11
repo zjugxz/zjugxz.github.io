@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: en
 title: ZigFi
 description: Harnessing Channel State Information for Cross-Technology Communication.
 img: assets/img/zigfi_figure.jpg

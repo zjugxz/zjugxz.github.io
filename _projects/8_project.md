@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: en
 title: WiZig
 description: Harnessing Channel State Information for Cross-Technology Communication.
 img: assets/img/wizig_figure.jpg

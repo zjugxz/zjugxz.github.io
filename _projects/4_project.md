@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: en
 title: Palantir
 description: Accurate Mobile Sensing over a LoRa Backscatter Channel.
 img: assets/img/Palantir_figure.png

@@ -1,7 +1,7 @@
 ---
 layout: page
 lang: zh
-permalink: /people/
+permalink: /zh/people/
 title: 成员
 description: 课题组成员
 nav: true

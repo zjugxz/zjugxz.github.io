@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: en
 title: LEGO-Fi
 description: Harnessing Channel State Information for Cross-Technology Communication.
 img: assets/img/legofi_figure.jpg

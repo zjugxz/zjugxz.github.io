@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: en
 title: Stripcomm
 description: Harnessing Channel State Information for Cross-Technology Communication.
 img: assets/img/stripcomm_figure.jpg
