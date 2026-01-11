@@ -2,7 +2,7 @@
 layout: page
 lang: zh
 permalink: /zh/services/
-title: Services
+title: 学术服务
 nav: true
 nav_order: 6
 ---

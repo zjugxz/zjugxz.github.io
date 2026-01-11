@@ -2,29 +2,30 @@
 layout: page
 lang: zh
 permalink: /zh/recruitment/
-title: Notes for Prospective Students
+title: 致准学生
 # <!-- description: Materials for courses you taught. Replace this text with your description. -->
 ---
 
-<font size="4"><b><i>Currently, I have openings for master students enrolled in the fall semester of 2024.</i></b></font>
-<font size="4"><b><i>Please contact me if you are interested.</i></b></font><br>
+<font size="4"><b><i>目前，我这里有面向2026年秋季入学硕士研究生的名额。</i></b></font>
+<font size="4"><b><i>如果您有兴趣，请与我联系。</i></b></font><br>
 
-I am looking for <b>self-motivated</b> PhD and Master students to work on research projects in wireless networking and ubiquitous computing.
-My research interests include Internet of Things, Wireless Networking, and Ubiquitous Computing. We have been targeting our research papers to top conferences and journals.
-Students in our team will have opportunities to work together with talented researchers all over the world, and will build a diverse skill in both system implementation and theoretical modeling.
+我正在寻找<b>积极进取</b>的博士和硕士研究生，参与无线网络和普适计算领域的研究项目。我的研究方向包括工业物联网/互联网、超低功耗通信技术、移动感知。
+我们一直致力于在顶级会议和期刊上发表研究论文。加入我们团队的学生将有机会与来自世界各地的优秀研究人员合作，并在系统实现和理论建模方面培养多元化的技能。
 
-Contact me if you fall into any of the following categories:
+如果您符合以下任何一种情况，请与我联系：
 
-1. Keen to solve challenging problems in the area of computer networks and systems.
-2. Enjoy implementing your own ideas and applying them in practice.
-3. Highly interested in cutting-edge information technologies that have great significance in industry and application fields.
-4. Love the research lifestyle, which means independent study and thinking, paper reading/writing, discussion/seminars, programming, experiments, and travelling all over the world for academic events.
+1. 热衷于解决计算网络和系统领域的挑战性问题。
+2. 享受将自己的想法付诸实践的过程。
+3. 对在工业和应用领域具有重大意义的前沿信息技术非常感兴趣。
+4. 热爱科研生活方式，这意味着独立学习和思考、阅读/撰写论文、参与讨论/研讨会、编程、实验，以及为了参加学术活动而周游世界。
 
-Students with a major in Computer Science or Electrical Engineering are encouraged to apply.
+我们鼓励计算机科学或电气工程专业的学生申请。
 
-<b>Email</b>: guoxz@zju.edu.cn
+<b>邮箱</b>: 
+- guoxz@zju.edu.cn
+- guoxiuzhen94@gmail.com
 
-Wechat:
+<b>微信</b>:
 
 <div class="row">
     <div class="col-sm-4 mt-3 mt-md-0">
