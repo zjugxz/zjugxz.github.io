@@ -13,8 +13,9 @@
     {% assign projects = filtered_projects | sort: "date" | reverse %}
 
     <div class="grid">
+      <div class="grid-sizer"></div>
+
       {% for project in projects limit: projects_limit %}
-        <div class="grid-sizer"></div>
         <div class="grid-item">
           <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
             <div class="card hoverable">
