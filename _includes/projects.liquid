@@ -1,3 +1,14 @@
+{% comment %} 获取当前页面的语言，默认为 'en' {% endcomment %}
+{% assign current_lang = page.lang | default: 'en' %}
+{% comment %} 根据语言设置 tooltip 文本 {% endcomment %}
+{% if current_lang == 'zh' %}
+  {% assign tooltip_code = "代码仓库" %}
+  {% assign tooltip_stars = "GitHub 星标" %}
+{% else %}
+  {% assign tooltip_code = "Code Repository" %}
+  {% assign tooltip_stars = "GitHub Stars" %}
+{% endif %}
+
 <div class="grid-sizer"></div>
 <div class="grid-item">
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
@@ -17,11 +28,11 @@
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
             <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
+              <div class="icon" data-toggle="tooltip" title="{{ tooltip_code }}">
                 <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
               </div>
               {% if project.github_stars %}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                <span class="stars" data-toggle="tooltip" title="{{ tooltip_stars }}">
                   <i class="fa-solid fa-star"></i>
                   <span id="{{ project.github_stars }}-stars"></span>
                 </span>
