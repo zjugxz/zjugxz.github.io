@@ -2,7 +2,7 @@
 layout: page
 lang: zh
 title: RF-Transformer
-description: 统一的反向散射无线电硬件
+description: 统一的反向散射无线电硬件抽象
 img: assets/img/transformer_figure.png
 importance: 1
 category: work
@@ -14,4 +14,4 @@ category: work
     </div>
 </div>
 
-This paper presents RF-Transformer, a unified backscatter radio hardware abstraction that allows a low-power IoT device to directly communicate with heterogeneous wireless receivers at the minimum power consumption. Unlike existing backscatter systems that are tailored to a specific wireless communication protocol, RF-Transformer provides a programmable interface to the micro-controller, allowing IoT devices to synthesize different types of protocol-compliant backscatter signals sharing radically different PHY-layer designs. To show the efficacy of our design, we implement a PCB prototype of RF-Transformer on 2.4 GHz ISM band and showcase its capability on generating standard ZigBee, Bluetooth, LoRa, andWi-Fi 802.11b/g/n/ac packets. Our extensive field studies show that RF-Transformer achieves 23.8 Mbps, 247.1 Kbps, 986.5 Kbps, and 27.3 Kbps throughput when generating standard Wi-Fi, ZigBee, Bluetooth, and LoRa signals while consuming 23–177× less power than their active counterparts. Our ASIC simulation based on the 65-nm CMOS process shows that the power gain of RF-Transformer can further grow to 187–3165×. We further integrate RF-Transformer with pressure sensors and present a case study on detecting foot traffic density in hallways. Our 7-day case studies demonstrate RF-Transformer can reliably transmit sensor data to a commodity gateway by synthesizing LoRa packets on top of Wi-Fi signals. Code and hardware schematics can be found at: https://github.com/LeFsCC/RF-Transformer. This work appears in the proceedings of ACM MobiCom 2022.
+本文提出 RF-Transformer，一种统一的反向散射无线电硬件抽象，使低功耗物联网设备能够以最低功耗直接与异构无线接收机通信。不同于为单一协议定制的传统反向散射系统，RF-Transformer 向微控制器提供可编程接口，让设备能够合成符合不同协议、但物理层设计完全不同的反向散射信号。我们在 2.4 GHz ISM 频段实现了 RF-Transformer 的 PCB 原型，并演示其生成标准 ZigBee、Bluetooth、LoRa、Wi-Fi 802.11b/g/n/ac 分组的能力。大量外场实验显示，在产生标准 Wi-Fi、ZigBee、Bluetooth、LoRa 信号时，RF-Transformer 的吞吐量分别达到 23.8 Mbps、247.1 Kbps、986.5 Kbps、27.3 Kbps，功耗仅为主动方案的 23–177× 之低。基于 65 nm CMOS 的 ASIC 仿真进一步表明其功耗优势可提升至 187–3165×。我们还将 RF-Transformer 与压力传感器集成，进行走廊人流监测案例研究，7 天的实验表明，通过在 Wi-Fi 信号上合成 LoRa 分组，RF-Transformer 能可靠地向普通网关传输传感数据。代码与硬件开源地址：https://github.com/LeFsCC/RF-Transformer。论文发表于 ACM MobiCom 2022。
