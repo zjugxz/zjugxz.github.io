@@ -3,7 +3,7 @@
   {% assign current_lang = page.lang | default: 'en' %}
   {% comment %} 根据语言设置日期格式 {% endcomment %}
   {% if current_lang == 'zh' %}
-    {% assign date_format = '%Y年%m月%d日' %}
+    {% assign date_format = '%Y-%m-%d' %}
     {% assign no_news_text = "暂无新闻..." %}
   {% else %}
     {% assign date_format = '%b %d, %Y' %}
