@@ -40,26 +40,48 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    {% comment %} 获取当前页面的语言，默认为 'en' {% endcomment %}
+    {% assign current_lang = page.lang | default: 'en' %}
+
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
+      {% if current_lang == 'zh' %}
+        {% assign news_title = "新闻" %}
+        {% assign news_url = "/zh/news/" %}
+      {% else %}
+        {% assign news_title = "News" %}
+        {% assign news_url = "/news/" %}
+      {% endif %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+        <a href="{{ news_url | relative_url }}" style="color: inherit">{{ news_title }}</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
     <!-- Latest posts -->
     {% if page.latest_posts and site.latest_posts.enabled %}
+      {% if current_lang == 'zh' %}
+        {% assign posts_title = "最新文章" %}
+      {% else %}
+        {% assign posts_title = "latest posts" %}
+      {% endif %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">{{ posts_title }}</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
+      {% if current_lang == 'zh' %}
+        {% assign papers_title = "精选论文" %}
+        {% assign papers_url = "/zh/publications/" %}
+      {% else %}
+        {% assign papers_title = "Selected publications" %}
+        {% assign papers_url = "/publications/" %}
+      {% endif %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
+        <a href="{{ papers_url | relative_url }}" style="color: inherit">{{ papers_title }}</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
