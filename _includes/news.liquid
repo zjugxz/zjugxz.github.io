@@ -1,5 +1,16 @@
 <div class="news">
-  {% assign filtered_news = site.news | where: "lang", page.lang %}
+  {% comment %} 获取当前页面的语言，默认为 'en' {% endcomment %}
+  {% assign current_lang = page.lang | default: 'en' %}
+  {% comment %} 根据语言设置日期格式 {% endcomment %}
+  {% if current_lang == 'zh' %}
+    {% assign date_format = '%Y年%m月%d日' %}
+    {% assign no_news_text = "暂无新闻..." %}
+  {% else %}
+    {% assign date_format = '%b %d, %Y' %}
+    {% assign no_news_text = "No news so far..." %}
+  {% endif %}
+  
+  {% assign filtered_news = site.news | where: "lang", current_lang %}
   {% if filtered_news != blank %}
     {% assign news_size = filtered_news | size %}
     <div
@@ -20,7 +31,7 @@
         {% for item in news limit: news_limit %}
           <tr>
             <th scope="row" style="width: 20%">
-              {{ item.date | date: '%b %d, %Y' }}
+              {{ item.date | date: date_format }}
             </th>
             <td>
               {% if item.inline %}
@@ -36,6 +47,6 @@
       </table>
     </div>
   {% else %}
-    <p>No news so far...</p>
+    <p>{{ no_news_text }}</p>
   {% endif %}
 </div>
