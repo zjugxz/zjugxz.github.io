@@ -17,7 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Greetings, my name is Xiuzhen Guo. I am a tenure-track Assistant Professor in College of Control Science and Engineering, Zhejiang University ([ZJU](https://www.zju.edu.cn/)). I received my Ph.D. degree from [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/) in 2021. I received the ACM China Doctoral Dissertation Award and Shuimu Tsinghua Scholar. My research interests include Internet of Things (IoT), wireless networking, and mobile computing.
+Greetings, my name is Xiuzhen Guo. I am a tenure-track Assistant Professor in College of Control Science and Engineering, Zhejiang University ([ZJU](https://www.zju.edu.cn/)). I received my Ph.D. degree from [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/) in 2021. I received the ACM China Rising Star Award (2025) and ACM China Doctoral Dissertation Award (2021). My research interests include Internet of Things (IoT), wireless networking, and mobile computing.
+
+<!-- Greetings, my name is Xiuzhen Guo. I am a tenure-track Assistant Professor in College of Control Science and Engineering, Zhejiang University ([ZJU](https://www.zju.edu.cn/)). I received my Ph.D. degree from [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/) in 2021. I received the ACM China Doctoral Dissertation Award and Shuimu Tsinghua Scholar. My research interests include Internet of Things (IoT), wireless networking, and mobile computing. -->
 
 `[Recruitment]` I am looking for self-motivated PhD and Master students to work on research projects in wireless networking and ubiquitous computing.  [Click here for the recruitment information](https://zjugxz.github.io/recruitment/).
 

@@ -17,8 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-
-我是郭秀珍，现在是[浙江大学](https://www.zju.edu.cn/)控制科学与工程学院的百人研究员。我于2021在[清华大学软件学院](https://www.thss.tsinghua.edu.cn/)获得博士学位，并荣获ACM中国博士学位论文奖和水木清华学者称号。我的研究方向包括物联网（IoT）、无线网络和移动计算。
+我是郭秀珍，[浙江大学](https://www.zju.edu.cn/)控制科学与工程学院的百人研究员。于2021在[清华大学软件学院](https://www.thss.tsinghua.edu.cn/)获得博士学位，获得ACM中国新星奖（2025）和ACM中国优博奖（2021）。研究方向包括物联网（IoT）、无线网络和移动计算。
 
 
 <!-- Greetings, my name is Xiuzhen Guo. I am a tenure-track Assistant Professor in College of Control Science and Engineering, Zhejiang University ([ZJU](https://www.zju.edu.cn/)). I received my Ph.D. degree from [School of Software, Tsinghua University](https://www.thss.tsinghua.edu.cn/) in 2021. I received the ACM China Doctoral Dissertation Award and Shuimu Tsinghua Scholar. My research interests include Internet of Things (IoT), wireless networking, and mobile computing. -->
