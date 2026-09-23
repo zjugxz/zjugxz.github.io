@@ -1,4 +1,4 @@
-name: Check for broken links on site
+name: Verify deployed redirect
 
 on:
   workflow_run:
@@ -6,41 +6,24 @@ on:
     types: [completed]
 
 jobs:
-  check-links-on-site:
-    # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#running-a-workflow-based-on-the-conclusion-of-another-workflow
+  verify:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v4
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.2.2"
-          bundler-cache: true
-      - name: Update _config.yml ⚙️
-        uses: fjogeleit/yaml-update-action@main
-        with:
-          commitChange: false
-          valueFile: "_config.yml"
-          changes: |
-            {
-              "giscus.repo": "${{ github.repository }}",
-              "baseurl": ""
-            }
-      - name: Install and Build 🔧
+      - name: Verify root redirect and destination
+        shell: bash
         run: |
-          pip3 install --upgrade jupyter
-          export JEKYLL_ENV=production
-          bundle exec jekyll build --lsi
-      - name: Purge unused CSS 🧹
-        run: |
-          npm install -g purgecss
-          purgecss -c purgecss.config.js
-      - name: Link Checker 🔗
-        uses: lycheeverse/lychee-action@v1.9.0
-        with:
-          fail: true
-          # only check local links
-          args: --offline --remap '_site(/?.*)/assets/(.*) _site/assets/$2' --verbose --no-progress '_site/**/*.html'
+          target="https://zjugxz.github.io/xiuzhen-guo-homepage/"
+
+          for attempt in {1..20}; do
+            if html="$(curl --fail --silent --show-error https://zjugxz.github.io/)" && grep -Fq "$target" <<<"$html"; then
+              curl --fail --silent --show-error --output /dev/null "$target"
+              exit 0
+            fi
+
+            echo "Redirect has not reached the Pages edge yet (attempt $attempt/20)."
+            sleep 15
+          done
+
+          echo "The deployed root page does not reference $target." >&2
+          exit 1
