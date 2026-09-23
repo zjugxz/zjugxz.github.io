@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://zjugxz.github.io/sitemap.xml
